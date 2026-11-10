@@ -2,22 +2,10 @@
  "_ohje": "SalkunRakentajan sijoittajakalenteri. Lähteet: Nasdaq Helsingin yhtiötiedotteet sekä keskuspankkien ja tilastovirastojen viralliset julkaisukalenterit.",
  "schema_version": 1,
  "haettu": {
-  "nasdaq_helsinki": "2026-11-09T04:06:43+00:00",
+  "nasdaq_helsinki": "2026-11-10T01:04:20+00:00",
   "makro": "2026-11-08T18:12:16+00:00"
  },
  "events": [
-  {
-   "company": "NoHo Partners Oyj",
-   "status": "arvio",
-   "announced": "",
-   "event_type": "osinko",
-   "event_date": "2026-11-09",
-   "ex_date": "2026-11-09",
-   "period": "Osingon irtoamispäivä",
-   "payment_date": "2026-11-18",
-   "event_key": "noho-partners-oyj-osinko-2026-11-09",
-   "origin": "nasdaq_helsinki"
-  },
   {
    "event_key": "cn-cpi-2026-11",
    "company": "Kiinan kuluttajahinnat",
@@ -70,7 +58,7 @@
    "event_date": "2026-11-10",
    "period": "Osavuosikatsaus Q3/2026",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-29 11:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -150,7 +138,7 @@
    "event_date": "2026-11-11",
    "period": "Osavuosikatsaus Q3/2026",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-11-09 13:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -214,16 +202,17 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "tallink-grupp-osinko-2026-11-12",
    "company": "Tallink Grupp",
-   "status": "vahvistettu",
-   "announced": "",
    "event_type": "osinko",
    "event_date": "2026-11-12",
+   "period": "Toinen osinkoerä 2026",
+   "status": "vahvistettu",
+   "announced": "2026-11-09 07:00:00 +0000",
    "ex_date": "2026-11-12",
-   "period": "Osingon irtoamispäivä",
+   "record_date": "2026-11-13",
    "payment_date": "2026-11-24",
    "dividend_amount": "0,03",
-   "event_key": "tallink-grupp-osinko-2026-11-12",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -577,7 +566,7 @@
    "event_date": "2026-12-07",
    "period": "Ylimääräinen yhtiökokous 2026",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-11-02 07:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -654,6 +643,16 @@
    "series": "fi_inflaatio",
    "source": "tilastokeskus",
    "origin": "makro"
+  },
+  {
+   "event_key": "stora-enso-oyj-yhtiokokous-ylimaarainen-2026-12-15",
+   "company": "Stora Enso Oyj",
+   "event_type": "yhtiokokous",
+   "event_date": "2026-12-15",
+   "period": "Ylimääräinen yhtiökokous 2026",
+   "status": "vahvistettu",
+   "announced": "2026-11-02 07:00:00 +0000",
+   "origin": "nasdaq_helsinki"
   },
   {
    "event_key": "ea-teollisuus-2026-12",
@@ -1072,7 +1071,7 @@
    "event_date": "2027-02-03",
    "period": "Tilinpäätöstiedote 2026",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-29 06:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -1083,6 +1082,16 @@
    "period": "Tilinpäätöstiedote 2026",
    "status": "vahvistettu",
    "announced": "",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "alma-media-tulos-fy-2026",
+   "company": "Alma Media",
+   "event_type": "tulos",
+   "event_date": "2027-02-04",
+   "period": "Tilinpäätöstiedote 2026",
+   "status": "vahvistettu",
+   "announced": "2026-10-29 06:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -1113,6 +1122,16 @@
    "period": "Tilinpäätöstiedote 2026",
    "status": "vahvistettu",
    "announced": "",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "upm-kymmene-oyj-tulos-fy-2026",
+   "company": "UPM-Kymmene Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-02-04",
+   "period": "Tilinpäätöstiedote 2026",
+   "status": "arvio",
+   "announced": "2026-10-28 12:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -1209,6 +1228,16 @@
    "period": "Tilinpäätöstiedote 2026",
    "status": "vahvistettu",
    "announced": "",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "yit-tulos-fy-2026",
+   "company": "YIT",
+   "event_type": "tulos",
+   "event_date": "2027-02-05",
+   "period": "Tilinpäätöstiedote 2026",
+   "status": "vahvistettu",
+   "announced": "2026-10-30 06:45:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -1381,6 +1410,16 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "kalmar-oyj-tulos-fy-2026",
+   "company": "Kalmar Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-02-11",
+   "period": "Tilinpäätöstiedote 2026",
+   "status": "vahvistettu",
+   "announced": "2026-10-28 14:15:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "mandatum-oyj-tulos-fy-2026",
    "company": "Mandatum Oyj",
    "event_type": "tulos",
@@ -1461,6 +1500,16 @@
    "period": "Tilinpäätöstiedote 2026",
    "status": "vahvistettu",
    "announced": "",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "enento-group-oyj-tulos-fy-2026",
+   "company": "Enento Group Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-02-12",
+   "period": "Tilinpäätöstiedote 2026",
+   "status": "vahvistettu",
+   "announced": "2026-10-29 09:30:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -1644,6 +1693,16 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "bonum-pankki-oyj-tulos-fy-2026",
+   "company": "Bonum Pankki Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-02-17",
+   "period": "Tilinpäätöstiedote 2026",
+   "status": "vahvistettu",
+   "announced": "2026-10-29 13:30:09 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "citycon-oyj-tulos-fy-2026",
    "company": "Citycon Oyj",
    "event_type": "tulos",
@@ -1714,6 +1773,16 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "pop-asuntoluottopankki-oyj-tulos-fy-2026",
+   "company": "POP Asuntoluottopankki Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-02-17",
+   "period": "Tilinpäätöstiedote 2026",
+   "status": "vahvistettu",
+   "announced": "2026-10-29 13:30:10 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "reaktor-group-oyj-tulos-fy-2026",
    "company": "Reaktor Group Oyj",
    "event_type": "tulos",
@@ -1773,7 +1842,7 @@
    "event_date": "2027-02-18",
    "period": "Tilinpäätöstiedote 2026",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-19 06:30:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -1837,6 +1906,16 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "posti-group-oyj-tulos-fy-2026",
+   "company": "Posti Group Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-02-19",
+   "period": "Tilinpäätöstiedote 2026",
+   "status": "vahvistettu",
+   "announced": "2026-10-29 06:00:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "qpr-software-tulos-fy-2026",
    "company": "QPR Software",
    "event_type": "tulos",
@@ -1886,7 +1965,7 @@
    "event_date": "2027-02-23",
    "period": "Tilinpäätöstiedote 2026",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-29 06:30:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -2114,6 +2193,16 @@
    "origin": "makro"
   },
   {
+   "event_key": "posti-group-oyj-yhtiokokous-varsinainen-2027",
+   "company": "Posti Group Oyj",
+   "event_type": "yhtiokokous",
+   "event_date": "2027-03-16",
+   "period": "Varsinainen yhtiökokous 2027",
+   "status": "arvio",
+   "announced": "2026-10-29 06:00:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "us-vahittais-2027-03",
    "company": "Yhdysvaltain vähittäiskauppa",
    "event_type": "makro",
@@ -2193,6 +2282,16 @@
    "origin": "makro"
   },
   {
+   "event_key": "yit-yhtiokokous-varsinainen-2027",
+   "company": "YIT",
+   "event_type": "yhtiokokous",
+   "event_date": "2027-03-18",
+   "period": "Varsinainen yhtiökokous 2027",
+   "status": "vahvistettu",
+   "announced": "2026-10-30 06:45:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "boe-2027-03",
    "company": "Englannin pankin korkopäätös",
    "event_type": "korko",
@@ -2240,6 +2339,26 @@
    "series": "jp_cpi",
    "source": "jp_cpi",
    "origin": "makro"
+  },
+  {
+   "event_key": "enento-group-oyj-yhtiokokous-varsinainen-2027",
+   "company": "Enento Group Oyj",
+   "event_type": "yhtiokokous",
+   "event_date": "2027-03-22",
+   "period": "Varsinainen yhtiökokous 2027",
+   "status": "arvio",
+   "announced": "2026-10-29 09:30:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "kalmar-oyj-yhtiokokous-varsinainen-2027",
+   "company": "Kalmar Oyj",
+   "event_type": "yhtiokokous",
+   "event_date": "2027-03-22",
+   "period": "Varsinainen yhtiökokous 2027",
+   "status": "arvio",
+   "announced": "2026-10-28 14:15:00 +0000",
+   "origin": "nasdaq_helsinki"
   },
   {
    "event_key": "metsa-board-oyj-yhtiokokous-varsinainen-2027",
@@ -2348,7 +2467,7 @@
    "event_date": "2027-03-24",
    "period": "Varsinainen yhtiökokous 2027",
    "status": "arvio",
-   "announced": "",
+   "announced": "2026-10-29 06:30:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -2587,7 +2706,7 @@
    "event_date": "2027-04-06",
    "period": "Varsinainen yhtiökokous 2027",
    "status": "arvio",
-   "announced": "",
+   "announced": "2026-10-19 06:30:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -2644,6 +2763,16 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "alma-media-yhtiokokous-varsinainen-2027",
+   "company": "Alma Media",
+   "event_type": "yhtiokokous",
+   "event_date": "2027-04-08",
+   "period": "Varsinainen yhtiökokous 2027",
+   "status": "arvio",
+   "announced": "2026-10-29 06:00:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "exel-composites-oyj-yhtiokokous-varsinainen-2027",
    "company": "Exel Composites Oyj",
    "event_type": "yhtiokokous",
@@ -2671,6 +2800,16 @@
    "period": "Varsinainen yhtiökokous 2027",
    "status": "arvio",
    "announced": "2026-10-28 10:15:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "upm-kymmene-oyj-yhtiokokous-varsinainen-2027",
+   "company": "UPM-Kymmene Oyj",
+   "event_type": "yhtiokokous",
+   "event_date": "2027-04-08",
+   "period": "Varsinainen yhtiökokous 2027",
+   "status": "arvio",
+   "announced": "2026-10-28 12:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -3122,7 +3261,7 @@
    "event_date": "2027-04-23",
    "period": "Osavuosikatsaus Q1/2027",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-19 06:30:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -3276,6 +3415,16 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "enento-group-oyj-tulos-q1-2027",
+   "company": "Enento Group Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-04-28",
+   "period": "Osavuosikatsaus Q1/2027",
+   "status": "vahvistettu",
+   "announced": "2026-10-29 09:30:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "fortum-tulos-q1-2027",
    "company": "Fortum",
    "event_type": "tulos",
@@ -3299,6 +3448,16 @@
    "origin": "makro"
   },
   {
+   "event_key": "kalmar-oyj-tulos-q1-2027",
+   "company": "Kalmar Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-04-28",
+   "period": "Osavuosikatsaus Q1/2027",
+   "status": "vahvistettu",
+   "announced": "2026-10-28 14:15:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "kesko-oyj-tulos-q1-2027",
    "company": "Kesko Oyj",
    "event_type": "tulos",
@@ -3316,6 +3475,16 @@
    "period": "Osavuosikatsaus Q1/2027",
    "status": "vahvistettu",
    "announced": "",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "posti-group-oyj-tulos-q1-2027",
+   "company": "Posti Group Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-04-28",
+   "period": "Osavuosikatsaus Q1/2027",
+   "status": "vahvistettu",
+   "announced": "2026-10-29 06:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -3389,6 +3558,16 @@
    "period": "Osavuosikatsaus Q1/2027",
    "status": "vahvistettu",
    "announced": "2026-10-30 05:50:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "alma-media-tulos-q1-2027",
+   "company": "Alma Media",
+   "event_type": "tulos",
+   "event_date": "2027-04-29",
+   "period": "Osavuosikatsaus Q1/2027",
+   "status": "vahvistettu",
+   "announced": "2026-10-29 06:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -3488,7 +3667,7 @@
    "event_date": "2027-04-29",
    "period": "Osavuosikatsaus Q1/2027",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-29 06:30:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -3519,6 +3698,26 @@
    "period": "Varsinainen yhtiökokous 2027",
    "status": "arvio",
    "announced": "",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "upm-kymmene-oyj-tulos-q1-2027",
+   "company": "UPM-Kymmene Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-04-29",
+   "period": "Osavuosikatsaus Q1/2027",
+   "status": "arvio",
+   "announced": "2026-10-28 12:00:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "yit-tulos-q1-2027",
+   "company": "YIT",
+   "event_type": "tulos",
+   "event_date": "2027-04-29",
+   "period": "Osavuosikatsaus Q1/2027",
+   "status": "vahvistettu",
+   "announced": "2026-10-30 06:45:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -4363,6 +4562,16 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "enento-group-oyj-tulos-h1-2027",
+   "company": "Enento Group Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-07-16",
+   "period": "Puolivuosikatsaus H1/2027",
+   "status": "vahvistettu",
+   "announced": "2026-10-29 09:30:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "kemira-oyj-tulos-h1-2027",
    "company": "Kemira Oyj",
    "event_type": "tulos",
@@ -4377,9 +4586,9 @@
    "company": "Oriola Oyj",
    "event_type": "tulos",
    "event_date": "2027-07-16",
-   "period": "Puolivuosikatsaus H1/2027",
+   "period": "Puolivuosikatsaus Q2/2027",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-29 06:30:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -4609,6 +4818,16 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "yit-tulos-h1-2027",
+   "company": "YIT",
+   "event_type": "tulos",
+   "event_date": "2027-07-22",
+   "period": "Puolivuosikatsaus H1/2027",
+   "status": "vahvistettu",
+   "announced": "2026-10-30 06:45:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "ekp-2027-07",
    "company": "EKP:n korkopäätös",
    "event_type": "korko",
@@ -4620,6 +4839,16 @@
    "series": "ekp",
    "source": "ekp",
    "origin": "makro"
+  },
+  {
+   "event_key": "kalmar-oyj-tulos-h1-2027",
+   "company": "Kalmar Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-07-23",
+   "period": "Puolivuosikatsaus H1/2027",
+   "status": "vahvistettu",
+   "announced": "2026-10-28 14:15:00 +0000",
+   "origin": "nasdaq_helsinki"
   },
   {
    "event_key": "nurminen-logistics-oyj-tulos-h1-2027",
@@ -4639,6 +4868,16 @@
    "period": "Puolivuosikatsaus Q2/2027",
    "status": "vahvistettu",
    "announced": "",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "upm-kymmene-oyj-tulos-h1-2027",
+   "company": "UPM-Kymmene Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-07-23",
+   "period": "Puolivuosikatsaus Q2/2027",
+   "status": "arvio",
+   "announced": "2026-10-28 12:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -4810,7 +5049,7 @@
    "event_date": "2027-08-04",
    "period": "Puolivuosikatsaus H1/2027",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-19 06:30:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -5026,6 +5265,16 @@
    "origin": "makro"
   },
   {
+   "event_key": "alma-media-tulos-h1-2027",
+   "company": "Alma Media",
+   "event_type": "tulos",
+   "event_date": "2027-08-12",
+   "period": "Puolivuosikatsaus H1/2027",
+   "status": "vahvistettu",
+   "announced": "2026-10-29 06:00:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "eezy-oyj-tulos-h1-2027",
    "company": "Eezy Oyj",
    "event_type": "tulos",
@@ -5073,6 +5322,16 @@
    "period": "Puolivuosikatsaus Q2/2027",
    "status": "vahvistettu",
    "announced": "",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "posti-group-oyj-tulos-h1-2027",
+   "company": "Posti Group Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-08-12",
+   "period": "Puolivuosikatsaus H1/2027",
+   "status": "vahvistettu",
+   "announced": "2026-10-29 06:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -5688,7 +5947,7 @@
    "event_date": "2027-10-26",
    "period": "Osavuosikatsaus Q3/2027",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-19 06:30:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -5865,6 +6124,16 @@
    "origin": "makro"
   },
   {
+   "event_key": "alma-media-tulos-q3-2027",
+   "company": "Alma Media",
+   "event_type": "tulos",
+   "event_date": "2027-10-28",
+   "period": "Osavuosikatsaus Q3/2027",
+   "status": "vahvistettu",
+   "announced": "2026-10-29 06:00:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "anora-group-oyj-tulos-q3-2027",
    "company": "Anora Group Oyj",
    "event_type": "tulos",
@@ -5892,6 +6161,16 @@
    "period": "Liiketoimintakatsaus Q3/2027",
    "status": "vahvistettu",
    "announced": "",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "enento-group-oyj-tulos-q3-2027",
+   "company": "Enento Group Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-10-28",
+   "period": "Osavuosikatsaus Q3/2027",
+   "status": "vahvistettu",
+   "announced": "2026-10-29 09:30:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -6001,7 +6280,7 @@
    "event_date": "2027-10-28",
    "period": "Osavuosikatsaus Q3/2027",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-29 06:30:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -6032,6 +6311,26 @@
    "period": "Osavuosikatsaus Q3/2027",
    "status": "vahvistettu",
    "announced": "",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "upm-kymmene-oyj-tulos-q3-2027",
+   "company": "UPM-Kymmene Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-10-28",
+   "period": "Osavuosikatsaus Q3/2027",
+   "status": "arvio",
+   "announced": "2026-10-28 12:00:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "yit-tulos-q3-2027",
+   "company": "YIT",
+   "event_type": "tulos",
+   "event_date": "2027-10-28",
+   "period": "Osavuosikatsaus Q3/2027",
+   "status": "vahvistettu",
+   "announced": "2026-10-30 06:45:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -6079,6 +6378,26 @@
    "series": "boj",
    "source": "boj",
    "origin": "makro"
+  },
+  {
+   "event_key": "kalmar-oyj-tulos-q3-2027",
+   "company": "Kalmar Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-10-29",
+   "period": "Osavuosikatsaus Q3/2027",
+   "status": "vahvistettu",
+   "announced": "2026-10-28 14:15:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "posti-group-oyj-tulos-q3-2027",
+   "company": "Posti Group Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-10-29",
+   "period": "Osavuosikatsaus Q3/2027",
+   "status": "vahvistettu",
+   "announced": "2026-10-29 06:00:00 +0000",
+   "origin": "nasdaq_helsinki"
   },
   {
    "event_key": "qpr-software-tulos-q3-2027",
