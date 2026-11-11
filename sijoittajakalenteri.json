@@ -2,7 +2,7 @@
  "_ohje": "SalkunRakentajan sijoittajakalenteri. Lähteet: Nasdaq Helsingin yhtiötiedotteet sekä keskuspankkien ja tilastovirastojen viralliset julkaisukalenterit.",
  "schema_version": 1,
  "haettu": {
-  "nasdaq_helsinki": "2026-11-10T01:04:20+00:00",
+  "nasdaq_helsinki": "2026-11-11T01:04:29+00:00",
   "makro": "2026-11-08T18:12:16+00:00"
  },
  "events": [
@@ -18,62 +18,6 @@
    "series": "cn_cpi",
    "source": "nbs",
    "origin": "makro"
-  },
-  {
-   "event_key": "mandatum-oyj-tulos-q3-2026",
-   "company": "Mandatum Oyj",
-   "event_type": "tulos",
-   "event_date": "2026-11-10",
-   "period": "Osavuosikatsaus Q3/2026",
-   "status": "vahvistettu",
-   "announced": "",
-   "origin": "nasdaq_helsinki"
-  },
-  {
-   "company": "NoHo Partners Oyj",
-   "status": "arvio",
-   "announced": "",
-   "event_type": "osinko",
-   "event_date": "2026-11-10",
-   "ex_date": "2026-11-10",
-   "period": "Osingon irtoamispäivä (3. erä)",
-   "dividend_amount": "0,08",
-   "event_key": "noho-partners-oyj-osinko-2026-11-10",
-   "origin": "nasdaq_helsinki"
-  },
-  {
-   "event_key": "raisio-tulos-q3-2026",
-   "company": "Raisio",
-   "event_type": "tulos",
-   "event_date": "2026-11-10",
-   "period": "Osavuosikatsaus Q3/2026",
-   "status": "vahvistettu",
-   "announced": "2026-11-06 07:30:00 +0000",
-   "origin": "nasdaq_helsinki"
-  },
-  {
-   "event_key": "savox-communications-oy-tulos-q3-2026",
-   "company": "Savox Communications Oy",
-   "event_type": "tulos",
-   "event_date": "2026-11-10",
-   "period": "Osavuosikatsaus Q3/2026",
-   "status": "vahvistettu",
-   "announced": "2026-10-29 11:00:00 +0000",
-   "origin": "nasdaq_helsinki"
-  },
-  {
-   "event_key": "tokmanni-group-oyj-osinko-2026-11-10",
-   "company": "Tokmanni Group Oyj",
-   "event_type": "osinko",
-   "event_date": "2026-11-10",
-   "period": "Osingon toinen erä, tilikausi 2025",
-   "status": "vahvistettu",
-   "announced": "2026-11-06 06:00:00 +0000",
-   "ex_date": "2026-11-10",
-   "record_date": "2026-11-11",
-   "payment_date": "2026-11-19",
-   "dividend_amount": "0,17",
-   "origin": "nasdaq_helsinki"
   },
   {
    "event_key": "us-cpi-2026-11",
@@ -186,9 +130,9 @@
    "company": "Revenio Group Oyj",
    "event_type": "tulos",
    "event_date": "2026-11-12",
-   "period": "Osavuosikatsaus 1-9/2026",
+   "period": "Osavuosikatsaus Q3/2026",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-28 07:30:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -497,15 +441,17 @@
    "origin": "makro"
   },
   {
+   "event_key": "tecnotree-oyj-osinko-2026-12-02",
    "company": "Tecnotree Oyj",
-   "status": "arvio",
-   "announced": "",
    "event_type": "osinko",
    "event_date": "2026-12-02",
+   "period": "Osingon täsmäytyspäivä, tilikausi 2025",
+   "status": "vahvistettu",
+   "announced": "2026-10-23 11:45:00 +0000",
    "ex_date": "2026-12-02",
-   "period": "Osingon irtoamispäivä",
+   "record_date": "2026-12-03",
    "payment_date": "2026-12-10",
-   "event_key": "tecnotree-oyj-osinko-2026-12-02",
+   "dividend_amount": "0,02",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -993,6 +939,16 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "kone-oyj-tulos-fy-2026",
+   "company": "KONE Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-01-29",
+   "period": "Tilinpäätöstiedote 2026",
+   "status": "vahvistettu",
+   "announced": "2026-10-28 06:45:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "jp-tyottomyys-2027-01",
    "company": "Japanin työttömyys",
    "event_type": "makro",
@@ -1038,7 +994,7 @@
    "event_date": "2027-02-02",
    "period": "Tilinpäätöstiedote 2026",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-28 07:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -1092,6 +1048,16 @@
    "period": "Tilinpäätöstiedote 2026",
    "status": "vahvistettu",
    "announced": "2026-10-29 06:00:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "konecranes-oyj-tulos-fy-2026",
+   "company": "Konecranes Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-02-04",
+   "period": "Tilinpäätöstiedote 2026",
+   "status": "vahvistettu",
+   "announced": "2026-10-23 11:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -1207,7 +1173,7 @@
    "event_date": "2027-02-05",
    "period": "Tilinpäätöstiedote 2026",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-28 06:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -1217,7 +1183,7 @@
    "event_date": "2027-02-05",
    "period": "Tilinpäätöstiedote 2026",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-26 06:30:09 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -1238,6 +1204,16 @@
    "period": "Tilinpäätöstiedote 2026",
    "status": "vahvistettu",
    "announced": "2026-10-30 06:45:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "alandsbanken-tulos-fy-2026",
+   "company": "Ålandsbanken",
+   "event_type": "tulos",
+   "event_date": "2027-02-05",
+   "period": "Tilinpäätöstiedote 2026",
+   "status": "vahvistettu",
+   "announced": "2026-10-23 05:30:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -1273,7 +1249,7 @@
    "event_date": "2027-02-08",
    "period": "Tilinpäätöstiedote 2026",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-27 13:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -1307,6 +1283,16 @@
    "period": "Tilinpäätöstiedote 2026",
    "status": "vahvistettu",
    "announced": "2026-11-04 11:00:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "nokian-tyres-plc-tulos-fy-2026",
+   "company": "Nokian Tyres plc",
+   "event_type": "tulos",
+   "event_date": "2027-02-09",
+   "period": "Tilinpäätöstiedote 2026",
+   "status": "vahvistettu",
+   "announced": "2026-10-27 11:15:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -1386,7 +1372,7 @@
    "event_date": "2027-02-10",
    "period": "Tilinpäätöstiedote 2026",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-11-10 06:30:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -1426,7 +1412,7 @@
    "event_date": "2027-02-11",
    "period": "Tilinpäätöstiedote 2026",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-11-10 06:30:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -1749,7 +1735,7 @@
    "event_date": "2027-02-17",
    "period": "Tilinpäätöstiedote 2026",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-27 06:30:09 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -1790,6 +1776,16 @@
    "period": "Tilinpäätöstiedote 2026",
    "status": "vahvistettu",
    "announced": "2026-10-30 08:00:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "tieto-oyj-tulos-fy-2026",
+   "company": "Tieto Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-02-17",
+   "period": "Tilinpäätöstiedote 2026",
+   "status": "vahvistettu",
+   "announced": "2026-10-27 06:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -1846,6 +1842,16 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "relais-group-oyj-tulos-fy-2026",
+   "company": "Relais Group Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-02-18",
+   "period": "Tilinpäätöstiedote 2026",
+   "status": "vahvistettu",
+   "announced": "2026-10-27 16:50:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "ssh-communications-security-oyj-tulos-fy-2026",
    "company": "SSH Communications Security Oyj",
    "event_type": "tulos",
@@ -1872,7 +1878,7 @@
    "event_date": "2027-02-18",
    "period": "Osavuosikatsaus Q4/2026",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-23 06:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -2045,6 +2051,16 @@
    "origin": "makro"
   },
   {
+   "event_key": "kone-oyj-yhtiokokous-varsinainen-2027",
+   "company": "KONE Oyj",
+   "event_type": "yhtiokokous",
+   "event_date": "2027-03-03",
+   "period": "Varsinainen yhtiökokous 2027",
+   "status": "arvio",
+   "announced": "2026-10-28 06:45:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "orthex-oyj-tulos-fy-2026",
    "company": "Orthex Oyj",
    "event_type": "tulos",
@@ -2203,6 +2219,16 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "tieto-oyj-yhtiokokous-varsinainen-2027",
+   "company": "Tieto Oyj",
+   "event_type": "yhtiokokous",
+   "event_date": "2027-03-16",
+   "period": "Varsinainen yhtiökokous 2027",
+   "status": "vahvistettu",
+   "announced": "2026-10-27 06:00:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "us-vahittais-2027-03",
    "company": "Yhdysvaltain vähittäiskauppa",
    "event_type": "makro",
@@ -2222,7 +2248,7 @@
    "event_date": "2027-03-17",
    "period": "Varsinainen yhtiökokous 2027",
    "status": "arvio",
-   "announced": "",
+   "announced": "2026-10-23 05:30:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -2441,6 +2467,16 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "konecranes-oyj-yhtiokokous-varsinainen-2027",
+   "company": "Konecranes Oyj",
+   "event_type": "yhtiokokous",
+   "event_date": "2027-03-24",
+   "period": "Varsinainen yhtiökokous 2027",
+   "status": "arvio",
+   "announced": "2026-10-23 11:00:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "lassila-tikanoja-plc-yhtiokokous-varsinainen-2027",
    "company": "Lassila & Tikanoja Plc",
    "event_type": "yhtiokokous",
@@ -2527,7 +2563,7 @@
    "event_date": "2027-03-31",
    "period": "Varsinainen yhtiökokous 2027",
    "status": "arvio",
-   "announced": "",
+   "announced": "2026-10-28 07:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -2591,6 +2627,16 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "alandsbanken-yhtiokokous-varsinainen-2027",
+   "company": "Ålandsbanken",
+   "event_type": "yhtiokokous",
+   "event_date": "2027-03-31",
+   "period": "Varsinainen yhtiökokous 2027",
+   "status": "vahvistettu",
+   "announced": "2026-10-23 05:30:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "aktia-pankki-oyj-yhtiokokous-varsinainen-2027",
    "company": "Aktia Pankki Oyj",
    "event_type": "yhtiokokous",
@@ -2606,8 +2652,8 @@
    "event_type": "yhtiokokous",
    "event_date": "2027-04-01",
    "period": "Varsinainen yhtiökokous 2027",
-   "status": "arvio",
-   "announced": "2026-10-23 05:10:09 +0000",
+   "status": "vahvistettu",
+   "announced": "2026-10-23 05:30:10 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -2729,7 +2775,7 @@
    "event_date": "2027-04-07",
    "period": "Varsinainen yhtiökokous 2027",
    "status": "arvio",
-   "announced": "",
+   "announced": "2026-10-27 13:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -2840,6 +2886,16 @@
    "period": "Varsinainen yhtiökokous 2027",
    "status": "arvio",
    "announced": "",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "relais-group-oyj-yhtiokokous-varsinainen-2027",
+   "company": "Relais Group Oyj",
+   "event_type": "yhtiokokous",
+   "event_date": "2027-04-13",
+   "period": "Varsinainen yhtiökokous 2027",
+   "status": "arvio",
+   "announced": "2026-10-27 16:50:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -3211,7 +3267,7 @@
    "event_date": "2027-04-22",
    "period": "Varsinainen yhtiökokous 2027",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-23 06:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -3235,13 +3291,23 @@
    "origin": "nasdaq_helsinki"
   },
   {
-   "event_key": "kemira-oyj-tulos-q1-2027",
-   "company": "Kemira Oyj",
+   "event_key": "kone-oyj-tulos-q1-2027",
+   "company": "KONE Oyj",
    "event_type": "tulos",
    "event_date": "2027-04-23",
    "period": "Osavuosikatsaus Q1/2027",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-28 06:45:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "kemira-oyj-tulos-h1-2027",
+   "company": "Kemira Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-04-23",
+   "period": "Puolivuosikatsaus H1/2027",
+   "status": "vahvistettu",
+   "announced": "2026-10-23 05:30:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -3251,7 +3317,7 @@
    "event_date": "2027-04-23",
    "period": "Osavuosikatsaus Q1/2027",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-26 06:30:09 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -3282,6 +3348,16 @@
    "period": "Osavuosikatsaus Q1/2027",
    "status": "vahvistettu",
    "announced": "",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "alandsbanken-tulos-q1-2027",
+   "company": "Ålandsbanken",
+   "event_type": "tulos",
+   "event_date": "2027-04-26",
+   "period": "Osavuosikatsaus Q1/2027",
+   "status": "vahvistettu",
+   "announced": "2026-10-23 05:30:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -3431,7 +3507,7 @@
    "event_date": "2027-04-28",
    "period": "Osavuosikatsaus Q1/2027",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-28 07:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -3468,6 +3544,16 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "konecranes-oyj-tulos-q1-2027",
+   "company": "Konecranes Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-04-28",
+   "period": "Osavuosikatsaus Q1/2027",
+   "status": "vahvistettu",
+   "announced": "2026-10-23 11:00:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "neste-oyj-tulos-q1-2027",
    "company": "Neste Oyj",
    "event_type": "tulos",
@@ -3475,6 +3561,16 @@
    "period": "Osavuosikatsaus Q1/2027",
    "status": "vahvistettu",
    "announced": "",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "nokian-tyres-plc-tulos-q1-2027",
+   "company": "Nokian Tyres plc",
+   "event_type": "tulos",
+   "event_date": "2027-04-28",
+   "period": "Osavuosikatsaus Q1/2027",
+   "status": "vahvistettu",
+   "announced": "2026-10-27 11:15:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -3538,6 +3634,16 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "tieto-oyj-tulos-q1-2027",
+   "company": "Tieto Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-04-28",
+   "period": "Osavuosikatsaus Q1/2027",
+   "status": "vahvistettu",
+   "announced": "2026-10-27 06:00:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "fed-2027-04",
    "company": "Fedin korkopäätös",
    "event_type": "korko",
@@ -3585,9 +3691,9 @@
    "company": "Digia Oyj",
    "event_type": "tulos",
    "event_date": "2027-04-29",
-   "period": "Liiketoimintakatsaus Q1/2027",
+   "period": "Liiketoimintakatsaus 1–3/2027",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-27 13:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -3597,7 +3703,7 @@
    "event_date": "2027-04-29",
    "period": "Osavuosikatsaus Q1/2027",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-28 06:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -3648,6 +3754,16 @@
    "period": "Osavuosikatsaus Q1/2027",
    "status": "vahvistettu",
    "announced": "",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "nokian-tyres-plc-yhtiokokous-varsinainen-2027",
+   "company": "Nokian Tyres plc",
+   "event_type": "yhtiokokous",
+   "event_date": "2027-04-29",
+   "period": "Varsinainen yhtiökokous 2027",
+   "status": "arvio",
+   "announced": "2026-10-27 11:15:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -3753,7 +3869,7 @@
    "event_date": "2027-04-30",
    "period": "Osavuosikatsaus Q1/2027",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-23 06:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -3819,7 +3935,7 @@
    "event_date": "2027-05-04",
    "period": "Osavuosikatsaus Q1/2027",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-27 06:30:09 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -3960,6 +4076,16 @@
    "period": "Osavuosikatsaus tammi–maaliskuu 2027",
    "status": "vahvistettu",
    "announced": "2026-11-05 07:00:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "relais-group-oyj-tulos-q1-2027",
+   "company": "Relais Group Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-05-05",
+   "period": "Osavuosikatsaus Q1/2027",
+   "status": "vahvistettu",
+   "announced": "2026-10-27 16:50:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -4477,9 +4603,9 @@
    "company": "Kreate Group Oyj",
    "event_type": "tulos",
    "event_date": "2027-07-14",
-   "period": "Puolivuosikatsaus Q2/2027",
+   "period": "Puolivuosikatsaus H1/2027",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-26 06:30:09 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -4572,13 +4698,13 @@
    "origin": "nasdaq_helsinki"
   },
   {
-   "event_key": "kemira-oyj-tulos-h1-2027",
+   "event_key": "kemira-oyj-tulos-q3-2027",
    "company": "Kemira Oyj",
    "event_type": "tulos",
    "event_date": "2027-07-16",
-   "period": "Puolivuosikatsaus H1/2027",
+   "period": "Osavuosikatsaus Q3/2027",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-23 05:30:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -4625,6 +4751,16 @@
    "origin": "makro"
   },
   {
+   "event_key": "alandsbanken-tulos-h1-2027",
+   "company": "Ålandsbanken",
+   "event_type": "tulos",
+   "event_date": "2027-07-19",
+   "period": "Puolivuosikatsaus H1/2027",
+   "status": "vahvistettu",
+   "announced": "2026-10-23 05:30:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "consti-oyj-tulos-h1-2027",
    "company": "Consti Oyj",
    "event_type": "tulos",
@@ -4641,7 +4777,7 @@
    "event_date": "2027-07-20",
    "period": "Puolivuosikatsaus H1/2027",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-28 06:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -4651,7 +4787,17 @@
    "event_date": "2027-07-20",
    "period": "Puolivuosikatsaus H1/2027",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-28 07:00:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "konecranes-oyj-tulos-h1-2027",
+   "company": "Konecranes Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-07-20",
+   "period": "Puolivuosikatsaus Q2/2027",
+   "status": "vahvistettu",
+   "announced": "2026-10-23 11:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -4695,6 +4841,16 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "kone-oyj-tulos-h1-2027",
+   "company": "KONE Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-07-21",
+   "period": "Puolivuosikatsaus Q2/2027",
+   "status": "vahvistettu",
+   "announced": "2026-10-28 06:45:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "ssab-ab-tulos-h1-2027",
    "company": "SSAB AB",
    "event_type": "tulos",
@@ -4702,6 +4858,16 @@
    "period": "Puolivuosikatsaus Q2/2027",
    "status": "vahvistettu",
    "announced": "",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "tieto-oyj-tulos-h1-2027",
+   "company": "Tieto Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-07-21",
+   "period": "Puolivuosikatsaus 2027",
+   "status": "vahvistettu",
+   "announced": "2026-10-27 06:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -4818,6 +4984,16 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "nokian-tyres-plc-tulos-h1-2027",
+   "company": "Nokian Tyres plc",
+   "event_type": "tulos",
+   "event_date": "2027-07-22",
+   "period": "Puolivuosikatsaus Q2/2027",
+   "status": "vahvistettu",
+   "announced": "2026-10-27 11:15:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "yit-tulos-h1-2027",
    "company": "YIT",
    "event_type": "tulos",
@@ -4885,9 +5061,9 @@
    "company": "GRK Infra Oyj",
    "event_type": "tulos",
    "event_date": "2027-07-28",
-   "period": "Puolivuosikatsaus Q2/2027",
+   "period": "Puolivuosikatsaus Q1-Q2/2027",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-27 06:30:09 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -4963,7 +5139,7 @@
    "event_date": "2027-07-30",
    "period": "Osavuosikatsaus Q2/2027",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-23 06:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -5153,9 +5329,9 @@
    "company": "Digia Oyj",
    "event_type": "tulos",
    "event_date": "2027-08-10",
-   "period": "Puolivuosikatsaus Q2/2027",
+   "period": "Puolivuosikatsaus 1–6/2027",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-27 13:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -5511,6 +5687,16 @@
    "period": "Puolivuosikatsaus tammi-kesäkuu 2027",
    "status": "vahvistettu",
    "announced": "2026-10-29 17:45:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "relais-group-oyj-tulos-h1-2027",
+   "company": "Relais Group Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-08-19",
+   "period": "Puolivuosikatsaus 2027",
+   "status": "vahvistettu",
+   "announced": "2026-10-27 16:50:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -5871,13 +6057,13 @@
    "origin": "nasdaq_helsinki"
   },
   {
-   "event_key": "kemira-oyj-tulos-q3-2027",
-   "company": "Kemira Oyj",
+   "event_key": "konecranes-oyj-tulos-q3-2027",
+   "company": "Konecranes Oyj",
    "event_type": "tulos",
    "event_date": "2027-10-22",
    "period": "Osavuosikatsaus Q3/2027",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-23 11:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -5927,7 +6113,7 @@
    "event_date": "2027-10-26",
    "period": "Osavuosikatsaus Q3/2027",
    "status": "vahvistettu",
-   "announced": "2026-10-23 05:10:09 +0000",
+   "announced": "2026-10-23 05:30:10 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -5961,6 +6147,16 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "tieto-oyj-tulos-q3-2027",
+   "company": "Tieto Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-10-26",
+   "period": "Osavuosikatsaus Q3/2027",
+   "status": "vahvistettu",
+   "announced": "2026-10-27 06:00:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "vaisala-tulos-q3-2027",
    "company": "Vaisala",
    "event_type": "tulos",
@@ -5991,6 +6187,16 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "alandsbanken-tulos-q3-2027",
+   "company": "Ålandsbanken",
+   "event_type": "tulos",
+   "event_date": "2027-10-26",
+   "period": "Osavuosikatsaus Q3/2027",
+   "status": "vahvistettu",
+   "announced": "2026-10-23 05:30:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "citycon-oyj-tulos-q3-2027",
    "company": "Citycon Oyj",
    "event_type": "tulos",
@@ -6005,9 +6211,9 @@
    "company": "Digia Oyj",
    "event_type": "tulos",
    "event_date": "2027-10-27",
-   "period": "Liiketoimintakatsaus Q3/2027",
+   "period": "Liiketoimintakatsaus 1–9/2027",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-27 13:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -6017,7 +6223,17 @@
    "event_date": "2027-10-27",
    "period": "Osavuosikatsaus Q3/2027",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-28 07:00:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "kone-oyj-tulos-q3-2027",
+   "company": "KONE Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-10-27",
+   "period": "Osavuosikatsaus Q3/2027",
+   "status": "vahvistettu",
+   "announced": "2026-10-28 06:45:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -6047,7 +6263,7 @@
    "event_date": "2027-10-27",
    "period": "Osavuosikatsaus Q3/2027",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-26 06:30:09 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -6058,6 +6274,16 @@
    "period": "Osavuosikatsaus Q3/2027",
    "status": "vahvistettu",
    "announced": "",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "nokian-tyres-plc-tulos-q3-2027",
+   "company": "Nokian Tyres plc",
+   "event_type": "tulos",
+   "event_date": "2027-10-27",
+   "period": "Osavuosikatsaus Q3/2027",
+   "status": "vahvistettu",
+   "announced": "2026-10-27 11:15:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -6087,7 +6313,7 @@
    "event_date": "2027-10-27",
    "period": "Osavuosikatsaus Q3/2027",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-23 06:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -6190,7 +6416,7 @@
    "event_date": "2027-10-28",
    "period": "Osavuosikatsaus Q3/2027",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-28 06:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -6291,6 +6517,16 @@
    "period": "Osavuosikatsaus Q3/2027",
    "status": "vahvistettu",
    "announced": "",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "relais-group-oyj-tulos-q3-2027",
+   "company": "Relais Group Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-10-28",
+   "period": "Osavuosikatsaus Q3/2027",
+   "status": "vahvistettu",
+   "announced": "2026-10-27 16:50:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
