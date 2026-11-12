@@ -2,7 +2,7 @@
  "_ohje": "SalkunRakentajan sijoittajakalenteri. Lähteet: Nasdaq Helsingin yhtiötiedotteet sekä keskuspankkien ja tilastovirastojen viralliset julkaisukalenterit.",
  "schema_version": 1,
  "haettu": {
-  "nasdaq_helsinki": "2026-11-11T01:04:29+00:00",
+  "nasdaq_helsinki": "2026-11-12T01:04:35+00:00",
   "makro": "2026-11-08T18:12:16+00:00"
  },
  "events": [
@@ -46,46 +46,6 @@
    "origin": "makro"
   },
   {
-   "event_key": "citycon-oyj-tulos-q3-2026",
-   "company": "Citycon Oyj",
-   "event_type": "tulos",
-   "event_date": "2026-11-11",
-   "period": "Osavuosikatsaus Q3/2026",
-   "status": "vahvistettu",
-   "announced": "",
-   "origin": "nasdaq_helsinki"
-  },
-  {
-   "event_key": "martela-oyj-tulos-q3-2026",
-   "company": "Martela Oyj",
-   "event_type": "tulos",
-   "event_date": "2026-11-11",
-   "period": "Osavuosikatsaus Q3/2026",
-   "status": "vahvistettu",
-   "announced": "",
-   "origin": "nasdaq_helsinki"
-  },
-  {
-   "event_key": "nanoform-finland-oyj-tulos-q3-2026",
-   "company": "Nanoform Finland Oyj",
-   "event_type": "tulos",
-   "event_date": "2026-11-11",
-   "period": "Osavuosikatsaus Q3/2026",
-   "status": "vahvistettu",
-   "announced": "",
-   "origin": "nasdaq_helsinki"
-  },
-  {
-   "event_key": "reaktor-group-oyj-tulos-q3-2026",
-   "company": "Reaktor Group Oyj",
-   "event_type": "tulos",
-   "event_date": "2026-11-11",
-   "period": "Osavuosikatsaus Q3/2026",
-   "status": "vahvistettu",
-   "announced": "2026-11-09 13:00:00 +0000",
-   "origin": "nasdaq_helsinki"
-  },
-  {
    "event_key": "bioretec-oyj-tulos-q3-2026",
    "company": "Bioretec Oyj",
    "event_type": "tulos",
@@ -123,6 +83,20 @@
    "period": "Osavuosikatsaus Q3/2026",
    "status": "vahvistettu",
    "announced": "",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "relais-group-oyj-osinko-2026-11-12",
+   "company": "Relais Group Oyj",
+   "event_type": "osinko",
+   "event_date": "2026-11-12",
+   "period": "Toinen osinkoerä tilikaudelta 2025",
+   "status": "vahvistettu",
+   "announced": "2026-11-11 16:45:00 +0000",
+   "ex_date": "2026-11-12",
+   "record_date": "2026-11-13",
+   "payment_date": "2026-11-30",
+   "dividend_amount": "0,15",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -273,7 +247,7 @@
    "event_date": "2026-11-19",
    "period": "Osavuosikatsaus Q3/2026",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-11-11 09:15:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -340,6 +314,16 @@
    "period": "Osavuosikatsaus Q3/2026",
    "status": "vahvistettu",
    "announced": "",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "kesla-oyj-yhtiokokous-ylimaarainen-2026-11-25",
+   "company": "Kesla Oyj",
+   "event_type": "yhtiokokous",
+   "event_date": "2026-11-25",
+   "period": "Ylimääräinen yhtiökokous 2026",
+   "status": "vahvistettu",
+   "announced": "2026-10-21 14:30:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -909,6 +893,16 @@
    "origin": "makro"
   },
   {
+   "event_key": "nokia-tulos-fy-2026",
+   "company": "Nokia",
+   "event_type": "tulos",
+   "event_date": "2027-01-28",
+   "period": "Tilinpäätöstiedote 2026",
+   "status": "vahvistettu",
+   "announced": "2026-10-22 05:00:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "nordea-bank-abp-tulos-fy-2026",
    "company": "Nordea Bank Abp",
    "event_type": "tulos",
@@ -1037,7 +1031,7 @@
    "event_date": "2027-02-03",
    "period": "Tilinpäätöstiedote 2026",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-21 05:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -1396,6 +1390,16 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "fiskars-tulos-fy-2026",
+   "company": "Fiskars",
+   "event_type": "tulos",
+   "event_date": "2027-02-11",
+   "period": "Tilinpäätöstiedote 2026",
+   "status": "vahvistettu",
+   "announced": "2026-10-22 05:35:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "kalmar-oyj-tulos-fy-2026",
    "company": "Kalmar Oyj",
    "event_type": "tulos",
@@ -1496,6 +1500,16 @@
    "period": "Tilinpäätöstiedote 2026",
    "status": "vahvistettu",
    "announced": "2026-10-29 09:30:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "hiab-tulos-fy-2026",
+   "company": "Hiab",
+   "event_type": "tulos",
+   "event_date": "2027-02-12",
+   "period": "Tilinpäätöstiedote 2026",
+   "status": "vahvistettu",
+   "announced": "2026-10-22 15:30:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -1611,7 +1625,7 @@
    "event_date": "2027-02-15",
    "period": "Tilinpäätöstiedote 2026",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-19 06:30:09 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -1664,7 +1678,7 @@
    "event_date": "2027-02-16",
    "period": "Tilinpäätöstiedote 2026",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-20 12:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -1971,7 +1985,7 @@
    "event_date": "2027-02-23",
    "period": "Tilinpäätöstiedote 2026",
    "status": "vahvistettu",
-   "announced": "2026-10-29 06:30:00 +0000",
+   "announced": "2026-11-11 16:15:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -2001,7 +2015,17 @@
    "event_date": "2027-02-25",
    "period": "Tilinpäätöstiedote 2026",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-20 12:30:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "tokmanni-group-oyj-tulos-fy-2026",
+   "company": "Tokmanni Group Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-02-26",
+   "period": "Tilinpäätöstiedote 2026",
+   "status": "vahvistettu",
+   "announced": "2026-11-11 07:15:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -2137,6 +2161,16 @@
    "period": "Puolivuosikatsaus 1.7.–31.12.2026",
    "status": "vahvistettu",
    "announced": "",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "fiskars-yhtiokokous-varsinainen-2027",
+   "company": "Fiskars",
+   "event_type": "yhtiokokous",
+   "event_date": "2027-03-10",
+   "period": "Varsinainen yhtiökokous 2027",
+   "status": "arvio",
+   "announced": "2026-10-22 05:35:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -2404,6 +2438,16 @@
    "period": "Varsinainen yhtiökokous 2027",
    "status": "vahvistettu",
    "announced": "",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "hiab-yhtiokokous-varsinainen-2027",
+   "company": "Hiab",
+   "event_type": "yhtiokokous",
+   "event_date": "2027-03-23",
+   "period": "Varsinainen yhtiökokous 2027",
+   "status": "vahvistettu",
+   "announced": "2026-10-22 15:30:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -2875,7 +2919,7 @@
    "event_date": "2027-04-09",
    "period": "Varsinainen yhtiökokous 2027",
    "status": "arvio",
-   "announced": "",
+   "announced": "2026-10-20 12:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -3077,7 +3121,7 @@
    "event_date": "2027-04-20",
    "period": "Osavuosikatsaus Q1/2027",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-20 12:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -3088,6 +3132,16 @@
    "period": "Varsinainen yhtiökokous 2027",
    "status": "arvio",
    "announced": "",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "tokmanni-group-oyj-yhtiokokous-varsinainen-2027",
+   "company": "Tokmanni Group Oyj",
+   "event_type": "yhtiokokous",
+   "event_date": "2027-04-20",
+   "period": "Varsinainen yhtiökokous 2027",
+   "status": "arvio",
+   "announced": "2026-11-11 07:15:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -3181,6 +3235,16 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "fiskars-tulos-q1-2027",
+   "company": "Fiskars",
+   "event_type": "tulos",
+   "event_date": "2027-04-22",
+   "period": "Osavuosikatsaus Q1/2027",
+   "status": "vahvistettu",
+   "announced": "2026-10-22 05:35:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "framery-group-oyj-tulos-q1-2027",
    "company": "Framery Group Oyj",
    "event_type": "tulos",
@@ -3237,7 +3301,7 @@
    "event_date": "2027-04-22",
    "period": "Liiketoimintakatsaus Q1/2027",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-20 12:30:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -3288,6 +3352,16 @@
    "period": "Osavuosikatsaus Q1/2027",
    "status": "vahvistettu",
    "announced": "2026-10-27 07:00:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "hiab-tulos-q1-2027",
+   "company": "Hiab",
+   "event_type": "tulos",
+   "event_date": "2027-04-23",
+   "period": "Osavuosikatsaus Q1/2027",
+   "status": "vahvistettu",
+   "announced": "2026-10-22 15:30:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -3347,7 +3421,7 @@
    "event_date": "2027-04-26",
    "period": "Osavuosikatsaus Q1/2027",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-19 06:30:09 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -3773,7 +3847,7 @@
    "event_date": "2027-04-29",
    "period": "Varsinainen yhtiökokous 2027",
    "status": "arvio",
-   "announced": "",
+   "announced": "2026-10-20 12:30:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -3870,6 +3944,16 @@
    "period": "Osavuosikatsaus Q1/2027",
    "status": "vahvistettu",
    "announced": "2026-10-23 06:00:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "tokmanni-group-oyj-tulos-q1-2027",
+   "company": "Tokmanni Group Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-04-30",
+   "period": "Liiketoimintakatsaus Q1/2027",
+   "status": "vahvistettu",
+   "announced": "2026-11-11 07:15:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -4648,7 +4732,7 @@
    "event_date": "2027-07-15",
    "period": "Puolivuosikatsaus H1/2027",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-19 06:30:09 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -4838,6 +4922,16 @@
    "period": "Puolivuosikatsaus Q2/2027",
    "status": "vahvistettu",
    "announced": "2026-10-27 07:00:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "hiab-tulos-h1-2027",
+   "company": "Hiab",
+   "event_type": "tulos",
+   "event_date": "2027-07-21",
+   "period": "Puolivuosikatsaus H1/2027",
+   "status": "vahvistettu",
+   "announced": "2026-10-22 15:30:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -5033,7 +5127,7 @@
    "event_date": "2027-07-23",
    "period": "Puolivuosikatsaus 1–6/2027",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-20 12:30:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -5054,6 +5148,16 @@
    "period": "Puolivuosikatsaus Q2/2027",
    "status": "arvio",
    "announced": "2026-10-28 12:00:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "fiskars-tulos-h1-2027",
+   "company": "Fiskars",
+   "event_type": "tulos",
+   "event_date": "2027-07-27",
+   "period": "Puolivuosikatsaus Q2/2027",
+   "status": "vahvistettu",
+   "announced": "2026-10-22 05:35:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -5140,6 +5244,16 @@
    "period": "Osavuosikatsaus Q2/2027",
    "status": "vahvistettu",
    "announced": "2026-10-23 06:00:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "tokmanni-group-oyj-tulos-h1-2027",
+   "company": "Tokmanni Group Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-07-30",
+   "period": "Puolivuosikatsaus H1/2027",
+   "status": "vahvistettu",
+   "announced": "2026-11-11 07:15:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -5349,9 +5463,9 @@
    "company": "Ponsse Oyj",
    "event_type": "tulos",
    "event_date": "2027-08-10",
-   "period": "Puolivuosikatsaus Q2/2027",
+   "period": "Puolivuosikatsaus H1/2027",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-20 12:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -5983,7 +6097,7 @@
    "event_date": "2027-10-18",
    "period": "Osavuosikatsaus Q3/2027",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-19 06:30:09 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -6003,7 +6117,7 @@
    "event_date": "2027-10-19",
    "period": "Osavuosikatsaus Q3/2027",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-20 12:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -6014,6 +6128,16 @@
    "period": "Osavuosikatsaus Q3/2027",
    "status": "vahvistettu",
    "announced": "2026-10-21 06:45:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "fiskars-tulos-q3-2027",
+   "company": "Fiskars",
+   "event_type": "tulos",
+   "event_date": "2027-10-21",
+   "period": "Osavuosikatsaus Q3/2027",
+   "status": "vahvistettu",
+   "announced": "2026-10-22 05:35:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -6033,7 +6157,7 @@
    "event_date": "2027-10-21",
    "period": "Liiketoimintakatsaus Q3/2027",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-10-20 12:30:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -6054,6 +6178,16 @@
    "period": "Osavuosikatsaus Q3/2027",
    "status": "vahvistettu",
    "announced": "",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "hiab-tulos-q3-2027",
+   "company": "Hiab",
+   "event_type": "tulos",
+   "event_date": "2027-10-22",
+   "period": "Osavuosikatsaus Q3/2027",
+   "status": "vahvistettu",
+   "announced": "2026-10-22 15:30:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -6663,6 +6797,16 @@
    "period": "Osavuosikatsaus Q3/2027",
    "status": "vahvistettu",
    "announced": "",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "tokmanni-group-oyj-tulos-q3-2027",
+   "company": "Tokmanni Group Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-10-29",
+   "period": "Liiketoimintakatsaus Q3/2027",
+   "status": "vahvistettu",
+   "announced": "2026-11-11 07:15:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
