@@ -1,9 +1,10 @@
 {
- "_ohje": "SalkunRakentajan sijoittajakalenteri. Lähteet: Nasdaq Helsingin yhtiötiedotteet sekä keskuspankkien ja tilastovirastojen viralliset julkaisukalenterit.",
+ "_ohje": "SalkunRakentajan sijoittajakalenteri. Lähteet: Nasdaq Helsingin yhtiötiedotteet, keskuspankkien ja tilastovirastojen viralliset julkaisukalenterit sekä yhtiöiden omat sijoittajasivut.",
  "schema_version": 1,
  "haettu": {
-  "nasdaq_helsinki": "2026-11-12T01:04:35+00:00",
-  "makro": "2026-11-08T18:12:16+00:00"
+  "nasdaq_helsinki": "2026-11-12T19:47:42+00:00",
+  "makro": "2026-11-08T18:12:16+00:00",
+  "yhtiot": "2026-11-12T19:47:46+00:00"
  },
  "events": [
   {
@@ -72,7 +73,7 @@
    "event_date": "2026-11-12",
    "period": "Osavuosikatsaus Q3/2026",
    "status": "vahvistettu",
-   "announced": "2026-11-05 10:00:00 +0000",
+   "announced": "2026-11-12 07:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -106,7 +107,7 @@
    "event_date": "2026-11-12",
    "period": "Osavuosikatsaus Q3/2026",
    "status": "vahvistettu",
-   "announced": "2026-10-28 07:30:00 +0000",
+   "announced": "2026-11-12 07:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -227,6 +228,17 @@
    "series": "cn_talous",
    "source": "nbs",
    "origin": "makro"
+  },
+  {
+   "event_key": "us-nvda-tulos-2027-q3",
+   "company": "Nvidia",
+   "event_type": "tulos",
+   "region": "usa",
+   "event_date": "2026-11-17",
+   "period": "Q3, tilikausi 2027",
+   "status": "vahvistettu",
+   "source": "q4_nvda",
+   "origin": "yhtiot"
   },
   {
    "company": "Keskisuomalainen Oyj",
@@ -524,6 +536,17 @@
    "series": "cn_cpi",
    "source": "nbs",
    "origin": "makro"
+  },
+  {
+   "event_key": "us-cost-tulos-2027-q1",
+   "company": "Costco",
+   "event_type": "tulos",
+   "region": "usa",
+   "event_date": "2026-12-10",
+   "period": "Q1/2027",
+   "status": "vahvistettu",
+   "source": "q4_cost",
+   "origin": "yhtiot"
   },
   {
    "event_key": "puuilo-oyj-tulos-q3-2026",
@@ -1450,6 +1473,16 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "solteq-oyj-tulos-fy-2026",
+   "company": "Solteq Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-02-11",
+   "period": "Tilinpäätöstiedote 2026",
+   "status": "vahvistettu",
+   "announced": "2026-11-12 09:55:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "stora-enso-oyj-tulos-fy-2026",
    "company": "Stora Enso Oyj",
    "event_type": "tulos",
@@ -2035,7 +2068,7 @@
    "event_date": "2027-03-02",
    "period": "Tilinpäätöstiedote 2026",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-11-12 07:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -2591,6 +2624,16 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "solteq-oyj-yhtiokokous-varsinainen-2027",
+   "company": "Solteq Oyj",
+   "event_type": "yhtiokokous",
+   "event_date": "2027-03-25",
+   "period": "Varsinainen yhtiökokous 2027",
+   "status": "arvio",
+   "announced": "2026-11-12 09:55:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "citycon-oyj-yhtiokokous-varsinainen-2027",
    "company": "Citycon Oyj",
    "event_type": "yhtiokokous",
@@ -2962,7 +3005,7 @@
    "event_date": "2027-04-14",
    "period": "Varsinainen yhtiökokous 2027",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-11-12 07:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -3871,6 +3914,16 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "solteq-oyj-tulos-q1-2027",
+   "company": "Solteq Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-04-29",
+   "period": "Osavuosikatsaus 1–3/2027",
+   "status": "vahvistettu",
+   "announced": "2026-11-12 09:55:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "stora-enso-oyj-tulos-q1-2027",
    "company": "Stora Enso Oyj",
    "event_type": "tulos",
@@ -4049,7 +4102,7 @@
    "event_date": "2027-05-04",
    "period": "Osavuosikatsaus Q1/2027",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-11-12 07:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -5276,7 +5329,7 @@
    "event_date": "2027-08-03",
    "period": "Puolivuosikatsaus H1/2027",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-11-12 07:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -5811,6 +5864,16 @@
    "period": "Puolivuosikatsaus 2027",
    "status": "vahvistettu",
    "announced": "2026-10-27 16:50:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "solteq-oyj-tulos-h1-2027",
+   "company": "Solteq Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-08-19",
+   "period": "Puolivuosikatsaus 1–6/2027",
+   "status": "vahvistettu",
+   "announced": "2026-11-12 09:55:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -6674,6 +6737,16 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "solteq-oyj-tulos-q3-2027",
+   "company": "Solteq Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-10-28",
+   "period": "Osavuosikatsaus 1–9/2027",
+   "status": "vahvistettu",
+   "announced": "2026-11-12 09:55:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "stora-enso-oyj-tulos-q3-2027",
    "company": "Stora Enso Oyj",
    "event_type": "tulos",
@@ -6829,7 +6902,7 @@
    "event_date": "2027-11-02",
    "period": "Osavuosikatsaus Q3/2027",
    "status": "vahvistettu",
-   "announced": "",
+   "announced": "2026-11-12 07:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
