@@ -2,9 +2,9 @@
  "_ohje": "SalkunRakentajan sijoittajakalenteri. Lähteet: Nasdaq Helsingin yhtiötiedotteet, keskuspankkien ja tilastovirastojen viralliset julkaisukalenterit sekä yhtiöiden omat sijoittajasivut.",
  "schema_version": 1,
  "haettu": {
-  "nasdaq_helsinki": "2026-11-12T19:47:42+00:00",
+  "nasdaq_helsinki": "2026-11-13T01:03:55+00:00",
   "makro": "2026-11-08T18:12:16+00:00",
-  "yhtiot": "2026-11-12T19:47:46+00:00"
+  "yhtiot": "2026-11-13T01:03:58+00:00"
  },
  "events": [
   {
@@ -45,94 +45,6 @@
    "series": "fi_teollisuus",
    "source": "tilastokeskus",
    "origin": "makro"
-  },
-  {
-   "event_key": "bioretec-oyj-tulos-q3-2026",
-   "company": "Bioretec Oyj",
-   "event_type": "tulos",
-   "event_date": "2026-11-12",
-   "period": "Osavuosikatsaus Q3/2026",
-   "status": "vahvistettu",
-   "announced": "",
-   "origin": "nasdaq_helsinki"
-  },
-  {
-   "event_key": "eagle-filters-group-oyj-tulos-q3-2026",
-   "company": "Eagle Filters Group Oyj",
-   "event_type": "tulos",
-   "event_date": "2026-11-12",
-   "period": "Osavuosikatsaus Q3/2026",
-   "status": "vahvistettu",
-   "announced": "",
-   "origin": "nasdaq_helsinki"
-  },
-  {
-   "event_key": "kamux-oyj-tulos-q3-2026",
-   "company": "Kamux Oyj",
-   "event_type": "tulos",
-   "event_date": "2026-11-12",
-   "period": "Osavuosikatsaus Q3/2026",
-   "status": "vahvistettu",
-   "announced": "2026-11-12 07:00:00 +0000",
-   "origin": "nasdaq_helsinki"
-  },
-  {
-   "event_key": "koskisen-oyj-tulos-q3-2026",
-   "company": "Koskisen Oyj",
-   "event_type": "tulos",
-   "event_date": "2026-11-12",
-   "period": "Osavuosikatsaus Q3/2026",
-   "status": "vahvistettu",
-   "announced": "",
-   "origin": "nasdaq_helsinki"
-  },
-  {
-   "event_key": "relais-group-oyj-osinko-2026-11-12",
-   "company": "Relais Group Oyj",
-   "event_type": "osinko",
-   "event_date": "2026-11-12",
-   "period": "Toinen osinkoerä tilikaudelta 2025",
-   "status": "vahvistettu",
-   "announced": "2026-11-11 16:45:00 +0000",
-   "ex_date": "2026-11-12",
-   "record_date": "2026-11-13",
-   "payment_date": "2026-11-30",
-   "dividend_amount": "0,15",
-   "origin": "nasdaq_helsinki"
-  },
-  {
-   "event_key": "revenio-group-oyj-tulos-q3-2026",
-   "company": "Revenio Group Oyj",
-   "event_type": "tulos",
-   "event_date": "2026-11-12",
-   "period": "Osavuosikatsaus Q3/2026",
-   "status": "vahvistettu",
-   "announced": "2026-11-12 07:00:00 +0000",
-   "origin": "nasdaq_helsinki"
-  },
-  {
-   "event_key": "solwers-oyj-tulos-q3-2026",
-   "company": "Solwers Oyj",
-   "event_type": "tulos",
-   "event_date": "2026-11-12",
-   "period": "Osavuosikatsaus Q3/2026",
-   "status": "vahvistettu",
-   "announced": "",
-   "origin": "nasdaq_helsinki"
-  },
-  {
-   "event_key": "tallink-grupp-osinko-2026-11-12",
-   "company": "Tallink Grupp",
-   "event_type": "osinko",
-   "event_date": "2026-11-12",
-   "period": "Toinen osinkoerä 2026",
-   "status": "vahvistettu",
-   "announced": "2026-11-09 07:00:00 +0000",
-   "ex_date": "2026-11-12",
-   "record_date": "2026-11-13",
-   "payment_date": "2026-11-24",
-   "dividend_amount": "0,03",
-   "origin": "nasdaq_helsinki"
   },
   {
    "event_key": "cityvarasto-oyj-tulos-q3-2026",
