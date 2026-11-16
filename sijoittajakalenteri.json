@@ -2,9 +2,9 @@
  "_ohje": "SalkunRakentajan sijoittajakalenteri. Lähteet: Nasdaq Helsingin yhtiötiedotteet, keskuspankkien ja tilastovirastojen viralliset julkaisukalenterit sekä yhtiöiden omat sijoittajasivut.",
  "schema_version": 1,
  "haettu": {
-  "nasdaq_helsinki": "2026-11-13T01:03:55+00:00",
+  "nasdaq_helsinki": "2026-11-16T01:05:49+00:00",
   "makro": "2026-11-08T18:12:16+00:00",
-  "yhtiot": "2026-11-13T01:03:58+00:00"
+  "yhtiot": "2026-11-16T01:06:02+00:00"
  },
  "events": [
   {
@@ -45,36 +45,6 @@
    "series": "fi_teollisuus",
    "source": "tilastokeskus",
    "origin": "makro"
-  },
-  {
-   "event_key": "cityvarasto-oyj-tulos-q3-2026",
-   "company": "Cityvarasto Oyj",
-   "event_type": "tulos",
-   "event_date": "2026-11-13",
-   "period": "Osavuosikatsaus Q3/2026",
-   "status": "vahvistettu",
-   "announced": "",
-   "origin": "nasdaq_helsinki"
-  },
-  {
-   "event_key": "lamor-corporation-oyj-yhtiokokous-ylimaarainen-2026-11-13",
-   "company": "Lamor Corporation Oyj",
-   "event_type": "yhtiokokous",
-   "event_date": "2026-11-13",
-   "period": "Ylimääräinen yhtiökokous 2026",
-   "status": "vahvistettu",
-   "announced": "2026-11-06 08:00:00 +0000",
-   "origin": "nasdaq_helsinki"
-  },
-  {
-   "event_key": "sunborn-international-oyj-tulos-q3-2026",
-   "company": "Sunborn International Oyj",
-   "event_type": "tulos",
-   "event_date": "2026-11-13",
-   "period": "Osavuosikatsaus Q3/2026",
-   "status": "vahvistettu",
-   "announced": "",
-   "origin": "nasdaq_helsinki"
   },
   {
    "event_key": "ea-bkt-2026-11",
@@ -165,6 +135,28 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "as-tcehy-tulos-2026-q3",
+   "company": "Tencent",
+   "event_type": "tulos",
+   "region": "aasia",
+   "event_date": "2026-11-18",
+   "period": "Q3/2026",
+   "status": "vahvistettu",
+   "source": "ir_tcehy",
+   "origin": "yhtiot"
+  },
+  {
+   "event_key": "as-baba-tulos-2026-q3",
+   "company": "Alibaba",
+   "event_type": "tulos",
+   "region": "aasia",
+   "event_date": "2026-11-19",
+   "period": "Q3/2026",
+   "status": "vahvistettu",
+   "source": "ir_baba",
+   "origin": "yhtiot"
+  },
+  {
    "event_key": "auroora-yhtiot-oyj-tulos-q3-2026",
    "company": "Auroora Yhtiöt Oyj",
    "event_type": "tulos",
@@ -193,6 +185,17 @@
    "status": "vahvistettu",
    "announced": "",
    "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "us-wmt-tulos-2027-q3",
+   "company": "Walmart",
+   "event_type": "tulos",
+   "region": "usa",
+   "event_date": "2026-11-19",
+   "period": "Q3, tilikausi 2027",
+   "status": "vahvistettu",
+   "source": "ir_wmt",
+   "origin": "yhtiot"
   },
   {
    "event_key": "jp-cpi-2026-11",
@@ -347,6 +350,17 @@
    "series": "ea_inflaatio",
    "source": "eurostat",
    "origin": "makro"
+  },
+  {
+   "event_key": "us-crm-tulos-2027-q3",
+   "company": "Salesforce",
+   "event_type": "tulos",
+   "region": "usa",
+   "event_date": "2026-12-02",
+   "period": "Q3, tilikausi 2027",
+   "status": "vahvistettu",
+   "source": "q4_crm",
+   "origin": "yhtiot"
   },
   {
    "event_key": "tecnotree-oyj-osinko-2026-12-02",
@@ -779,6 +793,17 @@
    "origin": "makro"
   },
   {
+   "event_key": "eu-inve-tulos-2026-fy",
+   "company": "Investor AB",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-01-22",
+   "period": "Koko vuosi 2026",
+   "status": "vahvistettu",
+   "source": "ir_inve",
+   "origin": "yhtiot"
+  },
+  {
    "event_key": "boj-2027-01",
    "company": "Japanin keskuspankin korkopäätös",
    "event_type": "korko",
@@ -815,6 +840,50 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "eu-asml-tulos-2026-q4",
+   "company": "ASML",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-01-27",
+   "period": "Q4/2026",
+   "status": "vahvistettu",
+   "source": "ir_asml",
+   "origin": "yhtiot"
+  },
+  {
+   "event_key": "eu-sand-tulos-2026-q4",
+   "company": "Sandvik",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-01-27",
+   "period": "Q4/2026",
+   "status": "vahvistettu",
+   "source": "ir_sand",
+   "origin": "yhtiot"
+  },
+  {
+   "event_key": "eu-swed-tulos-2026-fy",
+   "company": "Swedbank",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-01-27",
+   "period": "Koko vuosi 2026",
+   "status": "vahvistettu",
+   "source": "ir_swed",
+   "origin": "yhtiot"
+  },
+  {
+   "event_key": "eu-volv-tulos-2026-q4",
+   "company": "Volvo",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-01-27",
+   "period": "Q4/2026",
+   "status": "vahvistettu",
+   "source": "ir_volv",
+   "origin": "yhtiot"
+  },
+  {
    "event_key": "fed-2027-01",
    "company": "Fedin korkopäätös",
    "event_type": "korko",
@@ -846,6 +915,17 @@
    "status": "vahvistettu",
    "announced": "",
    "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "eu-rog-tulos-2026-fy",
+   "company": "Roche",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-01-28",
+   "period": "Koko vuosi 2026",
+   "status": "vahvistettu",
+   "source": "ir_rog",
+   "origin": "yhtiot"
   },
   {
    "event_key": "ssab-ab-tulos-fy-2026",
@@ -950,6 +1030,17 @@
    "origin": "makro"
   },
   {
+   "event_key": "eu-eqnr-tulos-2026-q4",
+   "company": "Equinor",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-02-03",
+   "period": "Q4/2026",
+   "status": "vahvistettu",
+   "source": "ir_eqnr",
+   "origin": "yhtiot"
+  },
+  {
    "event_key": "kesko-oyj-tulos-fy-2026",
    "company": "Kesko Oyj",
    "event_type": "tulos",
@@ -958,6 +1049,17 @@
    "status": "vahvistettu",
    "announced": "2026-10-29 06:00:00 +0000",
    "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "eu-novo-tulos-2026-fy",
+   "company": "Novo Nordisk",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-02-03",
+   "period": "Koko vuosi 2026",
+   "status": "vahvistettu",
+   "source": "ir_novo",
+   "origin": "yhtiot"
   },
   {
    "event_key": "svenska-handelsbanken-ab-tulos-fy-2026",
@@ -978,6 +1080,17 @@
    "status": "vahvistettu",
    "announced": "2026-10-29 06:00:00 +0000",
    "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "eu-dnb-tulos-2026-q4",
+   "company": "DNB",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-02-04",
+   "period": "Q4/2026",
+   "status": "vahvistettu",
+   "source": "ir_dnb",
+   "origin": "yhtiot"
   },
   {
    "event_key": "konecranes-oyj-tulos-fy-2026",
@@ -1114,6 +1227,17 @@
    "status": "vahvistettu",
    "announced": "2026-10-26 06:30:09 +0000",
    "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "eu-saab-tulos-2026-fy",
+   "company": "Saab",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-02-05",
+   "period": "Koko vuosi 2026",
+   "status": "vahvistettu",
+   "source": "ir_saab",
+   "origin": "yhtiot"
   },
   {
    "event_key": "wartsila-tulos-fy-2026",
@@ -1365,6 +1489,17 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "eu-sie-tulos-2027-q1",
+   "company": "Siemens",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-02-11",
+   "period": "Q1, tilikausi 2027",
+   "status": "vahvistettu",
+   "source": "ir_sie",
+   "origin": "yhtiot"
+  },
+  {
    "event_key": "siili-solutions-oyj-tulos-fy-2026",
    "company": "Siili Solutions Oyj",
    "event_type": "tulos",
@@ -1381,7 +1516,7 @@
    "event_date": "2027-02-11",
    "period": "Tilinpäätöstiedote 2026",
    "status": "vahvistettu",
-   "announced": "2026-11-05 06:30:00 +0000",
+   "announced": "2026-11-13 09:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -1851,6 +1986,17 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "us-wmt-tulos-2027-q4",
+   "company": "Walmart",
+   "event_type": "tulos",
+   "region": "usa",
+   "event_date": "2027-02-18",
+   "period": "Q4, tilikausi 2027",
+   "status": "vahvistettu",
+   "source": "ir_wmt",
+   "origin": "yhtiot"
+  },
+  {
    "event_key": "exel-composites-oyj-tulos-fy-2026",
    "company": "Exel Composites Oyj",
    "event_type": "tulos",
@@ -2150,6 +2296,17 @@
    "status": "vahvistettu",
    "announced": "2026-10-29 17:45:00 +0000",
    "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "eu-rhm-tulos-2026-fy",
+   "company": "Rheinmetall",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-03-11",
+   "period": "Koko vuosi 2026",
+   "status": "vahvistettu",
+   "source": "ir_rhm",
+   "origin": "yhtiot"
   },
   {
    "event_key": "wartsila-yhtiokokous-varsinainen-2027",
@@ -2696,6 +2853,16 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "sitowise-group-plc-yhtiokokous-varsinainen-2027",
+   "company": "Sitowise Group Plc",
+   "event_type": "yhtiokokous",
+   "event_date": "2027-04-01",
+   "period": "Varsinainen yhtiökokous 2027",
+   "status": "arvio",
+   "announced": "2026-11-13 09:00:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "wulff-yhtiot-oyj-yhtiokokous-varsinainen-2027",
    "company": "Wulff-Yhtiöt Oyj",
    "event_type": "yhtiokokous",
@@ -3150,6 +3317,17 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "eu-sand-tulos-2027-q1",
+   "company": "Sandvik",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-04-21",
+   "period": "Q1/2027",
+   "status": "vahvistettu",
+   "source": "ir_sand",
+   "origin": "yhtiot"
+  },
+  {
    "event_key": "teleste-oyj-yhtiokokous-varsinainen-2027",
    "company": "Teleste Oyj",
    "event_type": "yhtiokokous",
@@ -3280,6 +3458,17 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "eu-rog-tulos-2027-q1",
+   "company": "Roche",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-04-22",
+   "period": "Q1/2027",
+   "status": "vahvistettu",
+   "source": "ir_rog",
+   "origin": "yhtiot"
+  },
+  {
    "event_key": "sotkamo-silver-ab-yhtiokokous-varsinainen-2027",
    "company": "Sotkamo Silver AB",
    "event_type": "yhtiokokous",
@@ -3360,6 +3549,17 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "eu-saab-tulos-2027-q1",
+   "company": "Saab",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-04-23",
+   "period": "Q1/2027",
+   "status": "vahvistettu",
+   "source": "ir_saab",
+   "origin": "yhtiot"
+  },
+  {
    "event_key": "vaisala-tulos-q1-2027",
    "company": "Vaisala",
    "event_type": "tulos",
@@ -3368,6 +3568,17 @@
    "status": "vahvistettu",
    "announced": "2026-10-26 16:50:00 +0000",
    "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "eu-volv-tulos-2027-q1",
+   "company": "Volvo",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-04-23",
+   "period": "Q1/2027",
+   "status": "vahvistettu",
+   "source": "ir_volv",
+   "origin": "yhtiot"
   },
   {
    "event_key": "wulff-yhtiot-oyj-tulos-q1-2027",
@@ -3500,6 +3711,17 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "eu-asml-tulos-2027-q1",
+   "company": "ASML",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-04-28",
+   "period": "Q1/2027",
+   "status": "vahvistettu",
+   "source": "ir_asml",
+   "origin": "yhtiot"
+  },
+  {
    "event_key": "aspocomp-group-oyj-yhtiokokous-varsinainen-2027",
    "company": "Aspocomp Group Oyj",
    "event_type": "yhtiokokous",
@@ -3528,6 +3750,17 @@
    "status": "vahvistettu",
    "announced": "2026-10-29 09:30:00 +0000",
    "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "eu-eqnr-tulos-2027-q1",
+   "company": "Equinor",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-04-28",
+   "period": "Q1/2027",
+   "status": "vahvistettu",
+   "source": "ir_eqnr",
+   "origin": "yhtiot"
   },
   {
    "event_key": "fortum-tulos-q1-2027",
@@ -3653,6 +3886,17 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "eu-swed-tulos-2027-q1",
+   "company": "Swedbank",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-04-28",
+   "period": "Q1/2027",
+   "status": "vahvistettu",
+   "source": "ir_swed",
+   "origin": "yhtiot"
+  },
+  {
    "event_key": "terveystalo-oyj-tulos-q1-2027",
    "company": "Terveystalo Oyj",
    "event_type": "tulos",
@@ -3714,6 +3958,17 @@
    "status": "vahvistettu",
    "announced": "",
    "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "eu-dnb-tulos-2027-q1",
+   "company": "DNB",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-04-29",
+   "period": "Q1/2027",
+   "status": "vahvistettu",
+   "source": "ir_dnb",
+   "origin": "yhtiot"
   },
   {
    "event_key": "digia-oyj-tulos-q1-2027",
@@ -4118,6 +4373,17 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "eu-novo-tulos-2027-q1",
+   "company": "Novo Nordisk",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-05-05",
+   "period": "Q1/2027",
+   "status": "vahvistettu",
+   "source": "ir_novo",
+   "origin": "yhtiot"
+  },
+  {
    "event_key": "orthex-oyj-tulos-q1-2027",
    "company": "Orthex Oyj",
    "event_type": "tulos",
@@ -4138,6 +4404,17 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "eu-rhm-tulos-2027-q1",
+   "company": "Rheinmetall",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-05-05",
+   "period": "Q1/2027",
+   "status": "vahvistettu",
+   "source": "ir_rhm",
+   "origin": "yhtiot"
+  },
+  {
    "event_key": "sampo-tulos-q1-2027",
    "company": "Sampo",
    "event_type": "tulos",
@@ -4145,6 +4422,16 @@
    "period": "Osavuosikatsaus Q1/2027",
    "status": "vahvistettu",
    "announced": "",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "sitowise-group-plc-tulos-q1-2027",
+   "company": "Sitowise Group Plc",
+   "event_type": "tulos",
+   "event_date": "2027-05-05",
+   "period": "Osavuosikatsaus Q1/2027",
+   "status": "vahvistettu",
+   "announced": "2026-11-13 09:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -4325,6 +4612,17 @@
    "status": "arvio",
    "announced": "",
    "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "eu-sie-tulos-2027-q2",
+   "company": "Siemens",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-05-13",
+   "period": "Q2, tilikausi 2027",
+   "status": "vahvistettu",
+   "source": "ir_sie",
+   "origin": "yhtiot"
   },
   {
    "event_key": "teleste-oyj-tulos-q1-2027",
@@ -4638,6 +4936,17 @@
    "origin": "makro"
   },
   {
+   "event_key": "eu-dnb-tulos-2027-q2",
+   "company": "DNB",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-07-13",
+   "period": "Q2/2027",
+   "status": "vahvistettu",
+   "source": "ir_dnb",
+   "origin": "yhtiot"
+  },
+  {
    "event_key": "evli-oyj-tulos-h1-2027",
    "company": "Evli Oyj",
    "event_type": "tulos",
@@ -4777,6 +5086,28 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "eu-sand-tulos-2027-q2",
+   "company": "Sandvik",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-07-16",
+   "period": "Q2/2027",
+   "status": "vahvistettu",
+   "source": "ir_sand",
+   "origin": "yhtiot"
+  },
+  {
+   "event_key": "eu-swed-tulos-2027-q2",
+   "company": "Swedbank",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-07-16",
+   "period": "Q2/2027",
+   "status": "vahvistettu",
+   "source": "ir_swed",
+   "origin": "yhtiot"
+  },
+  {
    "event_key": "terveystalo-oyj-tulos-h1-2027",
    "company": "Terveystalo Oyj",
    "event_type": "tulos",
@@ -4785,6 +5116,17 @@
    "status": "vahvistettu",
    "announced": "2026-10-21 06:05:00 +0000",
    "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "eu-volv-tulos-2027-q2",
+   "company": "Volvo",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-07-16",
+   "period": "Q2/2027",
+   "status": "vahvistettu",
+   "source": "ir_volv",
+   "origin": "yhtiot"
   },
   {
    "event_key": "us-vahittais-2027-07",
@@ -4870,6 +5212,17 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "eu-saab-tulos-2027-q2",
+   "company": "Saab",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-07-20",
+   "period": "Q2/2027",
+   "status": "vahvistettu",
+   "source": "ir_saab",
+   "origin": "yhtiot"
+  },
+  {
    "event_key": "wartsila-tulos-h1-2027",
    "company": "Wärtsilä",
    "event_type": "tulos",
@@ -4878,6 +5231,28 @@
    "status": "vahvistettu",
    "announced": "",
    "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "eu-asml-tulos-2027-q2",
+   "company": "ASML",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-07-21",
+   "period": "Q2/2027",
+   "status": "vahvistettu",
+   "source": "ir_asml",
+   "origin": "yhtiot"
+  },
+  {
+   "event_key": "eu-eqnr-tulos-2027-q2",
+   "company": "Equinor",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-07-21",
+   "period": "Q2/2027",
+   "status": "vahvistettu",
+   "source": "ir_eqnr",
+   "origin": "yhtiot"
   },
   {
    "event_key": "finnair-oyj-tulos-h1-2027",
@@ -5051,6 +5426,17 @@
    "status": "vahvistettu",
    "announced": "2026-10-27 11:15:00 +0000",
    "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "eu-rog-tulos-2027-q2",
+   "company": "Roche",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-07-22",
+   "period": "Q2/2027",
+   "status": "vahvistettu",
+   "source": "ir_rog",
+   "origin": "yhtiot"
   },
   {
    "event_key": "yit-tulos-h1-2027",
@@ -5298,6 +5684,17 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "eu-novo-tulos-2027-q2",
+   "company": "Novo Nordisk",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-08-04",
+   "period": "Q2/2027",
+   "status": "vahvistettu",
+   "source": "ir_novo",
+   "origin": "yhtiot"
+  },
+  {
    "event_key": "qt-group-oyj-tulos-h1-2027",
    "company": "Qt Group Oyj",
    "event_type": "tulos",
@@ -5348,6 +5745,17 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "eu-rhm-tulos-2027-q2",
+   "company": "Rheinmetall",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-08-05",
+   "period": "Q2/2027",
+   "status": "vahvistettu",
+   "source": "ir_rhm",
+   "origin": "yhtiot"
+  },
+  {
    "event_key": "srv-yhtiot-oyj-tulos-h1-2027",
    "company": "SRV Yhtiöt Oyj",
    "event_type": "tulos",
@@ -5356,6 +5764,17 @@
    "status": "vahvistettu",
    "announced": "",
    "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "eu-sie-tulos-2027-q3",
+   "company": "Siemens",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-08-05",
+   "period": "Q3, tilikausi 2027",
+   "status": "vahvistettu",
+   "source": "ir_sie",
+   "origin": "yhtiot"
   },
   {
    "event_key": "suominen-oyj-tulos-h1-2027",
@@ -5494,6 +5913,16 @@
    "period": "Puolivuosikatsaus 1-6/2027",
    "status": "vahvistettu",
    "announced": "2026-10-28 10:15:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "sitowise-group-plc-tulos-h1-2027",
+   "company": "Sitowise Group Plc",
+   "event_type": "tulos",
+   "event_date": "2027-08-11",
+   "period": "Puolivuosikatsaus Q2/2027",
+   "status": "vahvistettu",
+   "announced": "2026-11-13 09:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -6106,6 +6535,28 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "eu-asml-tulos-2027-q3",
+   "company": "ASML",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-10-20",
+   "period": "Q3/2027",
+   "status": "vahvistettu",
+   "source": "ir_asml",
+   "origin": "yhtiot"
+  },
+  {
+   "event_key": "eu-dnb-tulos-2027-q3",
+   "company": "DNB",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-10-20",
+   "period": "Q3/2027",
+   "status": "vahvistettu",
+   "source": "ir_dnb",
+   "origin": "yhtiot"
+  },
+  {
    "event_key": "fiskars-tulos-q3-2027",
    "company": "Fiskars",
    "event_type": "tulos",
@@ -6134,6 +6585,28 @@
    "status": "vahvistettu",
    "announced": "2026-10-20 12:30:00 +0000",
    "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "eu-rog-tulos-2027-q3",
+   "company": "Roche",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-10-21",
+   "period": "Q3/2027",
+   "status": "vahvistettu",
+   "source": "ir_rog",
+   "origin": "yhtiot"
+  },
+  {
+   "event_key": "eu-sand-tulos-2027-q3",
+   "company": "Sandvik",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-10-21",
+   "period": "Q3/2027",
+   "status": "vahvistettu",
+   "source": "ir_sand",
+   "origin": "yhtiot"
   },
   {
    "event_key": "verkkokauppa-com-oyj-tulos-q3-2027",
@@ -6196,6 +6669,17 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "eu-volv-tulos-2027-q3",
+   "company": "Volvo",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-10-22",
+   "period": "Q3/2027",
+   "status": "vahvistettu",
+   "source": "ir_volv",
+   "origin": "yhtiot"
+  },
+  {
    "event_key": "metso-corporation-tulos-q3-2027",
    "company": "Metso Corporation",
    "event_type": "tulos",
@@ -6254,6 +6738,17 @@
    "status": "vahvistettu",
    "announced": "2026-10-27 10:30:00 +0000",
    "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "eu-saab-tulos-2027-q3",
+   "company": "Saab",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-10-26",
+   "period": "Q3/2027",
+   "status": "vahvistettu",
+   "source": "ir_saab",
+   "origin": "yhtiot"
   },
   {
    "event_key": "tieto-oyj-tulos-q3-2027",
@@ -6324,6 +6819,17 @@
    "status": "vahvistettu",
    "announced": "2026-10-27 13:00:00 +0000",
    "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "eu-eqnr-tulos-2027-q3",
+   "company": "Equinor",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-10-27",
+   "period": "Q3/2027",
+   "status": "vahvistettu",
+   "source": "ir_eqnr",
+   "origin": "yhtiot"
   },
   {
    "event_key": "fortum-tulos-q3-2027",
@@ -6424,6 +6930,17 @@
    "status": "vahvistettu",
    "announced": "2026-10-23 06:00:00 +0000",
    "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "eu-swed-tulos-2027-q3",
+   "company": "Swedbank",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-10-27",
+   "period": "Q3/2027",
+   "status": "vahvistettu",
+   "source": "ir_swed",
+   "origin": "yhtiot"
   },
   {
    "event_key": "taaleri-oyj-tulos-q3-2027",
@@ -6858,6 +7375,17 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "eu-novo-tulos-2027-q3",
+   "company": "Novo Nordisk",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-11-03",
+   "period": "Q3/2027",
+   "status": "vahvistettu",
+   "source": "ir_novo",
+   "origin": "yhtiot"
+  },
+  {
    "event_key": "sampo-tulos-q3-2027",
    "company": "Sampo",
    "event_type": "tulos",
@@ -7001,6 +7529,27 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "eu-rhm-tulos-2027-q3",
+   "company": "Rheinmetall",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-11-04",
+   "period": "Q3/2027",
+   "status": "vahvistettu",
+   "source": "ir_rhm",
+   "origin": "yhtiot"
+  },
+  {
+   "event_key": "sitowise-group-plc-tulos-q3-2027",
+   "company": "Sitowise Group Plc",
+   "event_type": "tulos",
+   "event_date": "2027-11-04",
+   "period": "Osavuosikatsaus Q3/2027",
+   "status": "vahvistettu",
+   "announced": "2026-11-13 09:00:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "ea-inflaatio-2027-11",
    "company": "Euroalueen inflaatio, ennakko",
    "event_type": "makro",
@@ -7088,6 +7637,17 @@
    "status": "vahvistettu",
    "announced": "2026-10-30 08:00:00 +0000",
    "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "eu-sie-tulos-2027-q4",
+   "company": "Siemens",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-11-11",
+   "period": "Q4, tilikausi 2027",
+   "status": "vahvistettu",
+   "source": "ir_sie",
+   "origin": "yhtiot"
   },
   {
    "event_key": "koskisen-oyj-tulos-q3-2027",
