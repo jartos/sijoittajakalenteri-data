@@ -2,9 +2,9 @@
  "_ohje": "SalkunRakentajan sijoittajakalenteri. Lähteet: Nasdaq Helsingin yhtiötiedotteet, keskuspankkien ja tilastovirastojen viralliset julkaisukalenterit sekä yhtiöiden omat sijoittajasivut.",
  "schema_version": 1,
  "haettu": {
-  "nasdaq_helsinki": "2026-11-16T01:05:49+00:00",
+  "nasdaq_helsinki": "2026-11-17T01:03:54+00:00",
   "makro": "2026-11-08T18:12:16+00:00",
-  "yhtiot": "2026-11-16T01:06:02+00:00"
+  "yhtiot": "2026-11-17T01:04:08+00:00"
  },
  "events": [
   {
