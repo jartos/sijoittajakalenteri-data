@@ -2,9 +2,9 @@
  "_ohje": "SalkunRakentajan sijoittajakalenteri. Lähteet: Nasdaq Helsingin yhtiötiedotteet, keskuspankkien ja tilastovirastojen viralliset julkaisukalenterit sekä yhtiöiden omat sijoittajasivut.",
  "schema_version": 1,
  "haettu": {
-  "nasdaq_helsinki": "2026-11-17T01:03:54+00:00",
+  "nasdaq_helsinki": "2026-11-18T01:04:04+00:00",
   "makro": "2026-11-08T18:12:16+00:00",
-  "yhtiot": "2026-11-17T01:04:08+00:00"
+  "yhtiot": "2026-11-18T01:04:23+00:00"
  },
  "events": [
   {
@@ -110,17 +110,6 @@
    "series": "cn_talous",
    "source": "nbs",
    "origin": "makro"
-  },
-  {
-   "event_key": "us-nvda-tulos-2027-q3",
-   "company": "Nvidia",
-   "event_type": "tulos",
-   "region": "usa",
-   "event_date": "2026-11-17",
-   "period": "Q3, tilikausi 2027",
-   "status": "vahvistettu",
-   "source": "q4_nvda",
-   "origin": "yhtiot"
   },
   {
    "company": "Keskisuomalainen Oyj",
