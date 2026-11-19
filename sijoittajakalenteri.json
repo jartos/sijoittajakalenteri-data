@@ -2,9 +2,9 @@
  "_ohje": "SalkunRakentajan sijoittajakalenteri. Lähteet: Nasdaq Helsingin yhtiötiedotteet, keskuspankkien ja tilastovirastojen viralliset julkaisukalenterit sekä yhtiöiden omat sijoittajasivut.",
  "schema_version": 1,
  "haettu": {
-  "nasdaq_helsinki": "2026-11-18T01:04:04+00:00",
+  "nasdaq_helsinki": "2026-11-19T01:03:48+00:00",
   "makro": "2026-11-08T18:12:16+00:00",
-  "yhtiot": "2026-11-18T01:04:23+00:00"
+  "yhtiot": "2026-11-19T01:04:02+00:00"
  },
  "events": [
   {
@@ -110,29 +110,6 @@
    "series": "cn_talous",
    "source": "nbs",
    "origin": "makro"
-  },
-  {
-   "company": "Keskisuomalainen Oyj",
-   "status": "arvio",
-   "announced": "",
-   "event_type": "osinko",
-   "event_date": "2026-11-18",
-   "ex_date": "2026-11-18",
-   "period": "Osingon irtoamispäivä",
-   "payment_date": "2026-11-26",
-   "event_key": "keskisuomalainen-oyj-osinko-2026-11-18",
-   "origin": "nasdaq_helsinki"
-  },
-  {
-   "event_key": "as-tcehy-tulos-2026-q3",
-   "company": "Tencent",
-   "event_type": "tulos",
-   "region": "aasia",
-   "event_date": "2026-11-18",
-   "period": "Q3/2026",
-   "status": "vahvistettu",
-   "source": "ir_tcehy",
-   "origin": "yhtiot"
   },
   {
    "event_key": "as-baba-tulos-2026-q3",
@@ -1592,6 +1569,16 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "kesla-oyj-tulos-fy-2026",
+   "company": "Kesla Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-02-12",
+   "period": "Tilinpäätöstiedote 2026",
+   "status": "vahvistettu",
+   "announced": "2026-11-18 12:15:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "koskisen-oyj-tulos-fy-2026",
    "company": "Koskisen Oyj",
    "event_type": "tulos",
@@ -2076,6 +2063,16 @@
    "period": "Tilinpäätöstiedote 2026",
    "status": "vahvistettu",
    "announced": "2026-10-21 06:45:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "gofore-oyj-tulos-fy-2026",
+   "company": "Gofore Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-02-25",
+   "period": "Tilinpäätöstiedote 2026",
+   "status": "vahvistettu",
+   "announced": "2026-11-18 10:15:02 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -2722,6 +2719,16 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "kesla-oyj-yhtiokokous-varsinainen-2027",
+   "company": "Kesla Oyj",
+   "event_type": "yhtiokokous",
+   "event_date": "2027-03-31",
+   "period": "Varsinainen yhtiökokous 2027",
+   "status": "arvio",
+   "announced": "2026-11-18 12:15:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "kreate-group-oyj-yhtiokokous-varsinainen-2027",
    "company": "Kreate Group Oyj",
    "event_type": "yhtiokokous",
@@ -3171,6 +3178,16 @@
    "series": "ea_teollisuus",
    "source": "eurostat",
    "origin": "makro"
+  },
+  {
+   "event_key": "gofore-oyj-yhtiokokous-varsinainen-2027",
+   "company": "Gofore Oyj",
+   "event_type": "yhtiokokous",
+   "event_date": "2027-04-16",
+   "period": "Varsinainen yhtiökokous 2027",
+   "status": "arvio",
+   "announced": "2026-11-18 10:15:02 +0000",
+   "origin": "nasdaq_helsinki"
   },
   {
    "event_key": "us-vahittais-2027-04",
@@ -3759,6 +3776,16 @@
    "period": "Osavuosikatsaus Q1/2027",
    "status": "vahvistettu",
    "announced": "2026-10-28 07:00:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "gofore-oyj-tulos-q1-2027",
+   "company": "Gofore Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-04-28",
+   "period": "Osavuosikatsaus Q1/2027",
+   "status": "vahvistettu",
+   "announced": "2026-11-18 10:15:02 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -4590,6 +4617,16 @@
    "period": "Varsinainen yhtiökokous 2027",
    "status": "arvio",
    "announced": "",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "kesla-oyj-tulos-q1-2027",
+   "company": "Kesla Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-05-13",
+   "period": "Liiketoimintakatsaus Q1/2027",
+   "status": "vahvistettu",
+   "announced": "2026-11-18 12:15:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -6117,6 +6154,16 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "gofore-oyj-tulos-h1-2027",
+   "company": "Gofore Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-08-18",
+   "period": "Puolivuosikatsaus H1/2027",
+   "status": "vahvistettu",
+   "announced": "2026-11-18 10:15:02 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "luotea-oyj-tulos-h1-2027",
    "company": "Luotea Oyj",
    "event_type": "tulos",
@@ -6154,6 +6201,16 @@
    "period": "Puolivuosikatsaus H1/2027",
    "status": "vahvistettu",
    "announced": "2026-11-05 06:30:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "kesla-oyj-tulos-h1-2027",
+   "company": "Kesla Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-08-19",
+   "period": "Puolivuosikatsaus H1/2027",
+   "status": "vahvistettu",
+   "announced": "2026-11-18 12:15:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -7065,6 +7122,16 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "gofore-oyj-tulos-q3-2027",
+   "company": "Gofore Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-10-28",
+   "period": "Osavuosikatsaus Q3/2027",
+   "status": "vahvistettu",
+   "announced": "2026-11-18 10:15:02 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "harvia-oyj-tulos-q3-2027",
    "company": "Harvia Oyj",
    "event_type": "tulos",
@@ -7248,6 +7315,16 @@
    "period": "Osavuosikatsaus Q3/2027",
    "status": "vahvistettu",
    "announced": "2026-10-28 14:15:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "kesla-oyj-tulos-q3-2027",
+   "company": "Kesla Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-10-29",
+   "period": "Liiketoimintakatsaus Q3/2027",
+   "status": "vahvistettu",
+   "announced": "2026-11-18 12:15:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
