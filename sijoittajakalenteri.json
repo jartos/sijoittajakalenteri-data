@@ -2,9 +2,9 @@
  "_ohje": "SalkunRakentajan sijoittajakalenteri. Lähteet: Nasdaq Helsingin yhtiötiedotteet, keskuspankkien ja tilastovirastojen viralliset julkaisukalenterit sekä yhtiöiden omat sijoittajasivut.",
  "schema_version": 1,
  "haettu": {
-  "nasdaq_helsinki": "2026-11-19T01:03:48+00:00",
+  "nasdaq_helsinki": "2026-11-20T01:03:59+00:00",
   "makro": "2026-11-08T18:12:16+00:00",
-  "yhtiot": "2026-11-19T01:04:02+00:00"
+  "yhtiot": "2026-11-20T01:04:44+00:00"
  },
  "events": [
   {
@@ -110,58 +110,6 @@
    "series": "cn_talous",
    "source": "nbs",
    "origin": "makro"
-  },
-  {
-   "event_key": "as-baba-tulos-2026-q3",
-   "company": "Alibaba",
-   "event_type": "tulos",
-   "region": "aasia",
-   "event_date": "2026-11-19",
-   "period": "Q3/2026",
-   "status": "vahvistettu",
-   "source": "ir_baba",
-   "origin": "yhtiot"
-  },
-  {
-   "event_key": "auroora-yhtiot-oyj-tulos-q3-2026",
-   "company": "Auroora Yhtiöt Oyj",
-   "event_type": "tulos",
-   "event_date": "2026-11-19",
-   "period": "Osavuosikatsaus Q3/2026",
-   "status": "vahvistettu",
-   "announced": "2026-11-11 09:15:00 +0000",
-   "origin": "nasdaq_helsinki"
-  },
-  {
-   "event_key": "ovaro-kiinteistosijoitus-oyj-tulos-q3-2026",
-   "company": "Ovaro Kiinteistösijoitus Oyj",
-   "event_type": "tulos",
-   "event_date": "2026-11-19",
-   "period": "Tammi-syyskuun osavuosikatsaus Q3/2026",
-   "status": "vahvistettu",
-   "announced": "",
-   "origin": "nasdaq_helsinki"
-  },
-  {
-   "event_key": "panostaja-oyj-tulos-q3-2026",
-   "company": "Panostaja Oyj",
-   "event_type": "tulos",
-   "event_date": "2026-11-19",
-   "period": "Liiketoimintakatsaus Q3/2026",
-   "status": "vahvistettu",
-   "announced": "",
-   "origin": "nasdaq_helsinki"
-  },
-  {
-   "event_key": "us-wmt-tulos-2027-q3",
-   "company": "Walmart",
-   "event_type": "tulos",
-   "region": "usa",
-   "event_date": "2026-11-19",
-   "period": "Q3, tilikausi 2027",
-   "status": "vahvistettu",
-   "source": "ir_wmt",
-   "origin": "yhtiot"
   },
   {
    "event_key": "jp-cpi-2026-11",
@@ -2056,6 +2004,16 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "auroora-yhtiot-oyj-tulos-fy-2026",
+   "company": "Auroora Yhtiöt Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-02-24",
+   "period": "Tilinpäätöstiedote 2026",
+   "status": "vahvistettu",
+   "announced": "2026-11-19 12:15:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "robit-oyj-tulos-fy-2026",
    "company": "Robit Oyj",
    "event_type": "tulos",
@@ -2093,6 +2051,16 @@
    "period": "Tilinpäätöstiedote 2026",
    "status": "vahvistettu",
    "announced": "2026-10-20 12:30:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "reka-industrial-oyj-tulos-fy-2026",
+   "company": "Reka Industrial Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-02-25",
+   "period": "Tilinpäätöstiedote 2026",
+   "status": "vahvistettu",
+   "announced": "2026-11-19 12:00:02 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -3074,6 +3042,16 @@
    "origin": "makro"
   },
   {
+   "event_key": "auroora-yhtiot-oyj-yhtiokokous-varsinainen-2027",
+   "company": "Auroora Yhtiöt Oyj",
+   "event_type": "yhtiokokous",
+   "event_date": "2027-04-14",
+   "period": "Varsinainen yhtiökokous 2027",
+   "status": "vahvistettu",
+   "announced": "2026-11-19 12:15:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "kamux-oyj-yhtiokokous-varsinainen-2027",
    "company": "Kamux Oyj",
    "event_type": "yhtiokokous",
@@ -3461,6 +3439,26 @@
    "period": "Osavuosikatsaus Q1/2027",
    "status": "vahvistettu",
    "announced": "",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "reka-industrial-oyj-yhtiokokous-varsinainen-2027",
+   "company": "Reka Industrial Oyj",
+   "event_type": "yhtiokokous",
+   "event_date": "2027-04-22",
+   "period": "Varsinainen yhtiökokous 2027",
+   "status": "vahvistettu",
+   "announced": "2026-11-19 12:00:02 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "reka-industrial-oyj-tulos-q1-2027",
+   "company": "Reka Industrial Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-04-22",
+   "period": "Osavuosikatsaus Q1/2027",
+   "status": "vahvistettu",
+   "announced": "2026-11-19 12:00:02 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -4505,6 +4503,16 @@
    "series": "ea_vahittais",
    "source": "eurostat",
    "origin": "makro"
+  },
+  {
+   "event_key": "auroora-yhtiot-oyj-tulos-q1-2027",
+   "company": "Auroora Yhtiöt Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-05-11",
+   "period": "Osavuosikatsaus Q1/2027",
+   "status": "vahvistettu",
+   "announced": "2026-11-19 12:15:00 +0000",
+   "origin": "nasdaq_helsinki"
   },
   {
    "event_key": "musti-group-oyj-tulos-q1-2027",
@@ -5771,6 +5779,16 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "reka-industrial-oyj-tulos-h1-2027",
+   "company": "Reka Industrial Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-08-05",
+   "period": "Puolivuosikatsaus H1/2027",
+   "status": "vahvistettu",
+   "announced": "2026-11-19 12:00:02 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "eu-rhm-tulos-2027-q2",
    "company": "Rheinmetall",
    "event_type": "tulos",
@@ -5890,6 +5908,16 @@
    "series": "us_ppi",
    "source": "bls_ppi",
    "origin": "makro"
+  },
+  {
+   "event_key": "auroora-yhtiot-oyj-tulos-h1-2027",
+   "company": "Auroora Yhtiöt Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-08-11",
+   "period": "Puolivuosikatsaus H1/2027",
+   "status": "vahvistettu",
+   "announced": "2026-11-19 12:15:00 +0000",
+   "origin": "nasdaq_helsinki"
   },
   {
    "event_key": "glaston-oyj-abp-tulos-h1-2027",
@@ -6630,6 +6658,16 @@
    "period": "Liiketoimintakatsaus Q3/2027",
    "status": "vahvistettu",
    "announced": "2026-10-20 12:30:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "reka-industrial-oyj-tulos-q3-2027",
+   "company": "Reka Industrial Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-10-21",
+   "period": "Osavuosikatsaus Q1-Q3/2027",
+   "status": "vahvistettu",
+   "announced": "2026-11-19 12:00:02 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -7389,6 +7427,16 @@
    "series": "ea_bkt",
    "source": "eurostat",
    "origin": "makro"
+  },
+  {
+   "event_key": "auroora-yhtiot-oyj-tulos-q3-2027",
+   "company": "Auroora Yhtiöt Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-11-02",
+   "period": "Osavuosikatsaus Q3/2027",
+   "status": "vahvistettu",
+   "announced": "2026-11-19 12:15:00 +0000",
+   "origin": "nasdaq_helsinki"
   },
   {
    "event_key": "kamux-oyj-tulos-q3-2027",
