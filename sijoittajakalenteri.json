@@ -2,9 +2,9 @@
  "_ohje": "SalkunRakentajan sijoittajakalenteri. Lähteet: Nasdaq Helsingin yhtiötiedotteet, keskuspankkien ja tilastovirastojen viralliset julkaisukalenterit sekä yhtiöiden omat sijoittajasivut.",
  "schema_version": 1,
  "haettu": {
-  "nasdaq_helsinki": "2026-11-20T01:03:59+00:00",
+  "nasdaq_helsinki": "2026-11-23T01:03:55+00:00",
   "makro": "2026-11-08T18:12:16+00:00",
-  "yhtiot": "2026-11-20T01:04:44+00:00"
+  "yhtiot": "2026-11-23T01:04:15+00:00"
  },
  "events": [
   {
@@ -348,7 +348,7 @@
    "event_date": "2026-12-07",
    "period": "Ylimääräinen yhtiökokous 2026",
    "status": "vahvistettu",
-   "announced": "2026-11-02 07:00:00 +0000",
+   "announced": "2026-11-20 13:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -1283,6 +1283,16 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "biohit-oyj-tulos-fy-2026",
+   "company": "Biohit Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-02-10",
+   "period": "Tilinpäätöstiedote 2026",
+   "status": "vahvistettu",
+   "announced": "2026-11-20 12:00:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "hkfoods-oyj-tulos-fy-2026",
    "company": "HKFoods Oyj",
    "event_type": "tulos",
@@ -1504,6 +1514,16 @@
    "period": "Tilinpäätöstiedote 2026",
    "status": "vahvistettu",
    "announced": "2026-10-22 15:30:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "huhtamaki-oyj-tulos-fy-2026",
+   "company": "Huhtamäki Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-02-12",
+   "period": "Tilinpäätöstiedote 2026",
+   "status": "vahvistettu",
+   "announced": "2026-11-20 07:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -1820,6 +1840,16 @@
    "origin": "makro"
   },
   {
+   "event_key": "aspo-tulos-fy-2026",
+   "company": "Aspo",
+   "event_type": "tulos",
+   "event_date": "2027-02-18",
+   "period": "Tilinpäätöstiedote 2026",
+   "status": "vahvistettu",
+   "announced": "2026-11-20 11:30:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "lumo-kodit-oyj-tulos-fy-2026",
    "company": "Lumo Kodit Oyj",
    "event_type": "tulos",
@@ -1897,6 +1927,16 @@
    "period": "Osavuosikatsaus Q4/2026",
    "status": "vahvistettu",
    "announced": "2026-10-23 06:00:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "trainers-house-oyj-tulos-fy-2026",
+   "company": "Trainers' House Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-02-18",
+   "period": "Tilinpäätöstiedote 2026",
+   "status": "vahvistettu",
+   "announced": "2026-11-20 10:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -2064,6 +2104,16 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "pohjolan-voima-oyj-tulos-fy-2026",
+   "company": "Pohjolan Voima Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-02-26",
+   "period": "Tilinpäätöstiedote 2026",
+   "status": "vahvistettu",
+   "announced": "2026-11-20 10:35:14 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "tokmanni-group-oyj-tulos-fy-2026",
    "company": "Tokmanni Group Oyj",
    "event_type": "tulos",
@@ -2170,6 +2220,16 @@
    "period": "Tilinpäätöstiedote 2026",
    "status": "vahvistettu",
    "announced": "",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "tulikivi-oyj-tulos-fy-2026",
+   "company": "Tulikivi Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-03-05",
+   "period": "Tilinpäätöstiedote 2026",
+   "status": "vahvistettu",
+   "announced": "2026-11-20 13:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -2624,6 +2684,16 @@
    "period": "Varsinainen yhtiökokous 2027",
    "status": "arvio",
    "announced": "",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "trainers-house-oyj-yhtiokokous-varsinainen-2027",
+   "company": "Trainers' House Oyj",
+   "event_type": "yhtiokokous",
+   "event_date": "2027-03-24",
+   "period": "Varsinainen yhtiökokous 2027",
+   "status": "arvio",
+   "announced": "2026-11-20 10:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -3483,6 +3553,26 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "trainers-house-oyj-tulos-q1-2027",
+   "company": "Trainers' House Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-04-22",
+   "period": "Osavuosikatsaus Q1/2027",
+   "status": "vahvistettu",
+   "announced": "2026-11-20 10:00:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "tulikivi-oyj-yhtiokokous-varsinainen-2027",
+   "company": "Tulikivi Oyj",
+   "event_type": "yhtiokokous",
+   "event_date": "2027-04-22",
+   "period": "Varsinainen yhtiökokous 2027",
+   "status": "vahvistettu",
+   "announced": "2026-11-20 13:00:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "verkkokauppa-com-oyj-tulos-q1-2027",
    "company": "Verkkokauppa.com Oyj",
    "event_type": "tulos",
@@ -3490,6 +3580,16 @@
    "period": "Osavuosikatsaus Q1/2027",
    "status": "vahvistettu",
    "announced": "",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "aspo-yhtiokokous-varsinainen-2027",
+   "company": "Aspo",
+   "event_type": "yhtiokokous",
+   "event_date": "2027-04-23",
+   "period": "Varsinainen yhtiökokous 2027",
+   "status": "arvio",
+   "announced": "2026-11-20 11:30:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -3583,6 +3683,16 @@
    "status": "vahvistettu",
    "source": "ir_volv",
    "origin": "yhtiot"
+  },
+  {
+   "event_key": "aspo-tulos-q1-2027",
+   "company": "Aspo",
+   "event_type": "tulos",
+   "event_date": "2027-04-26",
+   "period": "Osavuosikatsaus Q1/2027",
+   "status": "vahvistettu",
+   "announced": "2026-11-20 11:30:00 +0000",
+   "origin": "nasdaq_helsinki"
   },
   {
    "event_key": "wulff-yhtiot-oyj-tulos-q1-2027",
@@ -3784,6 +3894,26 @@
    "period": "Osavuosikatsaus Q1/2027",
    "status": "vahvistettu",
    "announced": "2026-11-18 10:15:02 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "huhtamaki-oyj-tulos-q1-2027",
+   "company": "Huhtamäki Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-04-28",
+   "period": "Osavuosikatsaus Q1/2027",
+   "status": "vahvistettu",
+   "announced": "2026-11-20 07:00:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "huhtamaki-oyj-yhtiokokous-varsinainen-2027",
+   "company": "Huhtamäki Oyj",
+   "event_type": "yhtiokokous",
+   "event_date": "2027-04-28",
+   "period": "Varsinainen yhtiökokous 2027",
+   "status": "arvio",
+   "announced": "2026-11-20 07:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -4479,6 +4609,16 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "tulikivi-oyj-tulos-q1-2027",
+   "company": "Tulikivi Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-05-07",
+   "period": "Osavuosikatsaus Q1/2027",
+   "status": "vahvistettu",
+   "announced": "2026-11-20 13:00:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "us-tyollisyys-2027-05",
    "company": "Yhdysvaltain työllisyysraportti",
    "event_type": "makro",
@@ -4778,6 +4918,16 @@
    "origin": "makro"
   },
   {
+   "event_key": "biohit-oyj-yhtiokokous-varsinainen-2027",
+   "company": "Biohit Oyj",
+   "event_type": "yhtiokokous",
+   "event_date": "2027-06-02",
+   "period": "Varsinainen yhtiökokous 2027",
+   "status": "vahvistettu",
+   "announced": "2026-11-20 12:00:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "ea-vahittais-2027-06",
    "company": "Euroalueen vähittäiskauppa",
    "event_type": "makro",
@@ -5034,6 +5184,16 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "trainers-house-oyj-tulos-h1-2027",
+   "company": "Trainers' House Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-07-15",
+   "period": "Puolivuosikatsaus H1/2027",
+   "status": "vahvistettu",
+   "announced": "2026-11-20 10:00:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "wulff-yhtiot-oyj-tulos-h1-2027",
    "company": "Wulff-Yhtiöt Oyj",
    "event_type": "tulos",
@@ -5174,6 +5334,16 @@
    "series": "us_vahittais",
    "source": "census",
    "origin": "makro"
+  },
+  {
+   "event_key": "aspo-tulos-h1-2027",
+   "company": "Aspo",
+   "event_type": "tulos",
+   "event_date": "2027-07-19",
+   "period": "Puolivuosikatsaus Q2/2027",
+   "status": "vahvistettu",
+   "announced": "2026-11-20 11:30:00 +0000",
+   "origin": "nasdaq_helsinki"
   },
   {
    "event_key": "alandsbanken-tulos-h1-2027",
@@ -5386,6 +5556,16 @@
    "period": "Puolivuosikatsaus Q2/2027",
    "status": "vahvistettu",
    "announced": "2026-11-02 07:01:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "huhtamaki-oyj-tulos-h1-2027",
+   "company": "Huhtamäki Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-07-22",
+   "period": "Puolivuosikatsaus Q2/2027",
+   "status": "vahvistettu",
+   "announced": "2026-11-20 07:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -5696,6 +5876,16 @@
    "series": "ea_inflaatio",
    "source": "eurostat",
    "origin": "makro"
+  },
+  {
+   "event_key": "biohit-oyj-tulos-h1-2027",
+   "company": "Biohit Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-08-04",
+   "period": "Puolivuosikatsaus tammi–kesäkuu 2027",
+   "status": "vahvistettu",
+   "announced": "2026-11-20 12:00:00 +0000",
+   "origin": "nasdaq_helsinki"
   },
   {
    "event_key": "citycon-oyj-tulos-h1-2027",
@@ -6126,6 +6316,16 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "tulikivi-oyj-tulos-h1-2027",
+   "company": "Tulikivi Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-08-13",
+   "period": "Puolivuosikatsaus Q2/2027",
+   "status": "vahvistettu",
+   "announced": "2026-11-20 13:00:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "vr-yhtyma-oyj-tulos-h1-2027",
    "company": "VR-Yhtymä Oyj",
    "event_type": "tulos",
@@ -6309,6 +6509,16 @@
    "period": "Puolivuosikatsaus H1/2027",
    "status": "vahvistettu",
    "announced": "",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "pohjolan-voima-oyj-tulos-h1-2027",
+   "company": "Pohjolan Voima Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-08-24",
+   "period": "Puolivuosikatsaus tammi-kesäkuu 2027",
+   "status": "vahvistettu",
+   "announced": "2026-11-20 10:35:14 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -6764,6 +6974,16 @@
    "origin": "yhtiot"
   },
   {
+   "event_key": "aspo-tulos-q3-2027",
+   "company": "Aspo",
+   "event_type": "tulos",
+   "event_date": "2027-10-25",
+   "period": "Osavuosikatsaus Q3/2027",
+   "status": "vahvistettu",
+   "announced": "2026-11-20 11:30:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "metso-corporation-tulos-q3-2027",
    "company": "Metso Corporation",
    "event_type": "tulos",
@@ -7180,6 +7400,16 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "huhtamaki-oyj-tulos-q3-2027",
+   "company": "Huhtamäki Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-10-28",
+   "period": "Osavuosikatsaus Q3/2027",
+   "status": "vahvistettu",
+   "announced": "2026-11-20 07:00:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
    "event_key": "kh-group-plc-tulos-q3-2027",
    "company": "KH Group Plc",
    "event_type": "tulos",
@@ -7277,6 +7507,16 @@
    "period": "Osavuosikatsaus Q3/2027",
    "status": "vahvistettu",
    "announced": "",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "trainers-house-oyj-tulos-q3-2027",
+   "company": "Trainers' House Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-10-28",
+   "period": "Osavuosikatsaus Q3/2027",
+   "status": "vahvistettu",
+   "announced": "2026-11-20 10:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -7697,6 +7937,16 @@
    "period": "Osavuosikatsaus Q3/2027",
    "status": "vahvistettu",
    "announced": "",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "tulikivi-oyj-tulos-q3-2027",
+   "company": "Tulikivi Oyj",
+   "event_type": "tulos",
+   "event_date": "2027-11-05",
+   "period": "Osavuosikatsaus Q3/2027",
+   "status": "vahvistettu",
+   "announced": "2026-11-20 13:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
