@@ -2,9 +2,9 @@
  "_ohje": "SalkunRakentajan sijoittajakalenteri. Lähteet: Nasdaq Helsingin yhtiötiedotteet, keskuspankkien ja tilastovirastojen viralliset julkaisukalenterit sekä yhtiöiden omat sijoittajasivut.",
  "schema_version": 1,
  "haettu": {
-  "nasdaq_helsinki": "2026-11-24T01:04:13+00:00",
+  "nasdaq_helsinki": "2026-11-25T01:04:09+00:00",
   "makro": "2026-11-08T18:12:16+00:00",
-  "yhtiot": "2026-11-24T01:04:32+00:00"
+  "yhtiot": "2026-11-25T01:04:22+00:00"
  },
  "events": [
   {
@@ -123,16 +123,6 @@
    "series": "jp_cpi",
    "source": "jp_cpi",
    "origin": "makro"
-  },
-  {
-   "event_key": "wetteri-plc-tulos-q3-2026",
-   "company": "Wetteri Plc",
-   "event_type": "tulos",
-   "event_date": "2026-11-24",
-   "period": "Osavuosikatsaus Q3/2026",
-   "status": "vahvistettu",
-   "announced": "2026-11-03 07:00:00 +0000",
-   "origin": "nasdaq_helsinki"
   },
   {
    "event_key": "fi-tyottomyys-2026-11",
@@ -1958,6 +1948,16 @@
    "period": "Tilinpäätöstiedote 2026",
    "status": "vahvistettu",
    "announced": "2026-11-20 10:00:00 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "tyollisyysrahasto-tulos-fy-2026",
+   "company": "Työllisyysrahasto",
+   "event_type": "tulos",
+   "event_date": "2027-02-18",
+   "period": "Tilinpäätöstiedote 2026",
+   "status": "vahvistettu",
+   "announced": "2026-11-24 09:20:02 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
@@ -6570,6 +6570,16 @@
    "period": "Puolivuosikatsaus tammi-kesäkuu 2027",
    "status": "vahvistettu",
    "announced": "2026-11-20 10:35:14 +0000",
+   "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "tyollisyysrahasto-tulos-h1-2027",
+   "company": "Työllisyysrahasto",
+   "event_type": "tulos",
+   "event_date": "2027-08-24",
+   "period": "Puolivuosikatsaus tammi-kesäkuu 2027",
+   "status": "vahvistettu",
+   "announced": "2026-11-24 09:20:02 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
