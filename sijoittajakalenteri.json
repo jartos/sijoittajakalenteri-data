@@ -2,9 +2,9 @@
  "_ohje": "SalkunRakentajan sijoittajakalenteri. Lähteet: Nasdaq Helsingin yhtiötiedotteet, keskuspankkien ja tilastovirastojen viralliset julkaisukalenterit sekä yhtiöiden omat sijoittajasivut.",
  "schema_version": 1,
  "haettu": {
-  "nasdaq_helsinki": "2026-11-25T01:04:09+00:00",
+  "nasdaq_helsinki": "2026-11-26T01:04:05+00:00",
   "makro": "2026-11-08T18:12:16+00:00",
-  "yhtiot": "2026-11-25T01:04:22+00:00"
+  "yhtiot": "2026-11-26T01:04:19+00:00"
  },
  "events": [
   {
@@ -138,26 +138,6 @@
    "origin": "makro"
   },
   {
-   "event_key": "asuntosalkku-oyj-tulos-q3-2026",
-   "company": "Asuntosalkku Oyj",
-   "event_type": "tulos",
-   "event_date": "2026-11-25",
-   "period": "Osavuosikatsaus Q3/2026",
-   "status": "vahvistettu",
-   "announced": "",
-   "origin": "nasdaq_helsinki"
-  },
-  {
-   "event_key": "kesla-oyj-yhtiokokous-ylimaarainen-2026-11-25",
-   "company": "Kesla Oyj",
-   "event_type": "yhtiokokous",
-   "event_date": "2026-11-25",
-   "period": "Ylimääräinen yhtiökokous 2026",
-   "status": "vahvistettu",
-   "announced": "2026-10-21 14:30:00 +0000",
-   "origin": "nasdaq_helsinki"
-  },
-  {
    "event_key": "us-bkt-2026-11",
    "company": "Yhdysvaltain BKT",
    "event_type": "makro",
@@ -184,16 +164,6 @@
    "origin": "makro"
   },
   {
-   "event_key": "fortaco-group-holdco-oyj-tulos-q3-2026",
-   "company": "Fortaco Group Holdco Oyj",
-   "event_type": "tulos",
-   "event_date": "2026-11-27",
-   "period": "Liiketoimintakatsaus Q3/2026",
-   "status": "vahvistettu",
-   "announced": "",
-   "origin": "nasdaq_helsinki"
-  },
-  {
    "event_key": "fi-bkt-2026-11",
    "company": "Suomen BKT",
    "event_type": "makro",
@@ -207,16 +177,6 @@
    "origin": "makro"
   },
   {
-   "event_key": "koskirent-oyj-tulos-q3-2026",
-   "company": "KoskiRent Oyj",
-   "event_type": "tulos",
-   "event_date": "2026-11-30",
-   "period": "Osavuosikatsaus Q3/2026",
-   "status": "vahvistettu",
-   "announced": "",
-   "origin": "nasdaq_helsinki"
-  },
-  {
    "event_key": "cn-pmi-2026-11",
    "company": "Kiinan ostopäällikköindeksi (NBS)",
    "event_type": "makro",
@@ -228,6 +188,17 @@
    "series": "cn_pmi",
    "source": "nbs",
    "origin": "makro"
+  },
+  {
+   "event_key": "as-nio-tulos-2026-q3",
+   "company": "NIO",
+   "event_type": "tulos",
+   "region": "aasia",
+   "event_date": "2026-12-01",
+   "period": "Q3/2026",
+   "status": "vahvistettu",
+   "source": "ir_nio",
+   "origin": "yhtiot"
   },
   {
    "event_key": "jp-tyottomyys-2026-12",
@@ -340,6 +311,28 @@
    "status": "vahvistettu",
    "announced": "2026-11-20 13:00:00 +0000",
    "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "us-adbe-tulos-2026-fy",
+   "company": "Adobe",
+   "event_type": "tulos",
+   "region": "usa",
+   "event_date": "2026-12-09",
+   "period": "Koko vuosi 2026",
+   "status": "vahvistettu",
+   "source": "ir_adbe",
+   "origin": "yhtiot"
+  },
+  {
+   "event_key": "us-avgo-tulos-2026-q4",
+   "company": "Broadcom",
+   "event_type": "tulos",
+   "region": "usa",
+   "event_date": "2026-12-09",
+   "period": "Q4/2026",
+   "status": "vahvistettu",
+   "source": "ir_avgo",
+   "origin": "yhtiot"
   },
   {
    "event_key": "fed-2026-12",
@@ -475,6 +468,17 @@
    "series": "cn_talous",
    "source": "nbs",
    "origin": "makro"
+  },
+  {
+   "event_key": "us-nke-tulos-2027-q2",
+   "company": "Nike",
+   "event_type": "tulos",
+   "region": "usa",
+   "event_date": "2026-12-17",
+   "period": "Q2, tilikausi 2027",
+   "status": "vahvistettu",
+   "source": "ir_nke",
+   "origin": "yhtiot"
   },
   {
    "event_key": "boe-2026-12",
@@ -646,6 +650,17 @@
    "origin": "makro"
   },
   {
+   "event_key": "us-jpm-tulos-2026-q4",
+   "company": "JPMorgan Chase",
+   "event_type": "tulos",
+   "region": "usa",
+   "event_date": "2027-01-14",
+   "period": "Q4/2026",
+   "status": "vahvistettu",
+   "source": "ir_jpm",
+   "origin": "yhtiot"
+  },
+  {
    "company": "Kesko Oyj",
    "status": "arvio",
    "announced": "",
@@ -656,6 +671,17 @@
    "payment_date": "2027-01-21",
    "event_key": "kesko-oyj-osinko-2027-01-14",
    "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "us-wfc-tulos-2026-q4",
+   "company": "Wells Fargo",
+   "event_type": "tulos",
+   "region": "usa",
+   "event_date": "2027-01-14",
+   "period": "Q4/2026",
+   "status": "vahvistettu",
+   "source": "ir_wfc",
+   "origin": "yhtiot"
   },
   {
    "event_key": "ea-teollisuus-2027-01",
@@ -964,6 +990,17 @@
    "status": "vahvistettu",
    "announced": "2026-10-29 06:00:00 +0000",
    "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "eu-novn-tulos-2026-fy",
+   "company": "Novartis",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-02-03",
+   "period": "Koko vuosi 2026",
+   "status": "vahvistettu",
+   "source": "ir_novn",
+   "origin": "yhtiot"
   },
   {
    "event_key": "eu-novo-tulos-2026-fy",
@@ -1354,6 +1391,17 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "eu-tte-tulos-2026-fy",
+   "company": "TotalEnergies",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-02-10",
+   "period": "Koko vuosi 2026",
+   "status": "vahvistettu",
+   "source": "ir_tte",
+   "origin": "yhtiot"
+  },
+  {
    "event_key": "capman-tulos-fy-2026",
    "company": "CapMan",
    "event_type": "tulos",
@@ -1506,6 +1554,17 @@
    "status": "vahvistettu",
    "announced": "2026-10-29 09:30:00 +0000",
    "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "eu-rms-tulos-2026-fy",
+   "company": "Hermès",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-02-12",
+   "period": "Koko vuosi 2026",
+   "status": "vahvistettu",
+   "source": "ir_rms",
+   "origin": "yhtiot"
   },
   {
    "event_key": "hiab-tulos-fy-2026",
@@ -1851,6 +1910,17 @@
    "origin": "makro"
   },
   {
+   "event_key": "eu-air-tulos-2026-fy",
+   "company": "Airbus",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-02-18",
+   "period": "Koko vuosi 2026",
+   "status": "vahvistettu",
+   "source": "ir_air",
+   "origin": "yhtiot"
+  },
+  {
    "event_key": "aspo-tulos-fy-2026",
    "company": "Aspo",
    "event_type": "tulos",
@@ -1869,6 +1939,17 @@
    "status": "vahvistettu",
    "announced": "",
    "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "eu-nesn-tulos-2026-fy",
+   "company": "Nestlé",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-02-18",
+   "period": "Koko vuosi 2026",
+   "status": "vahvistettu",
+   "source": "ir_nesn",
+   "origin": "yhtiot"
   },
   {
    "event_key": "optomed-oyj-tulos-fy-2026",
@@ -2053,6 +2134,17 @@
    "status": "vahvistettu",
    "announced": "",
    "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "us-hd-tulos-2026-q4",
+   "company": "Home Depot",
+   "event_type": "tulos",
+   "region": "usa",
+   "event_date": "2027-02-23",
+   "period": "Q4/2026",
+   "status": "vahvistettu",
+   "source": "ir_hd",
+   "origin": "yhtiot"
   },
   {
    "event_key": "oriola-oyj-tulos-fy-2026",
@@ -3692,6 +3784,17 @@
    "period": "Q1/2027",
    "status": "vahvistettu",
    "source": "ir_saab",
+   "origin": "yhtiot"
+  },
+  {
+   "event_key": "eu-tte-tulos-2027-q1",
+   "company": "TotalEnergies",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-04-23",
+   "period": "Q1/2027",
+   "status": "vahvistettu",
+   "source": "ir_tte",
    "origin": "yhtiot"
   },
   {
@@ -5747,6 +5850,17 @@
    "origin": "nasdaq_helsinki"
   },
   {
+   "event_key": "eu-tte-tulos-2027-q2",
+   "company": "TotalEnergies",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-07-23",
+   "period": "Q2/2027",
+   "status": "vahvistettu",
+   "source": "ir_tte",
+   "origin": "yhtiot"
+  },
+  {
    "event_key": "upm-kymmene-oyj-tulos-h1-2027",
    "company": "UPM-Kymmene Oyj",
    "event_type": "tulos",
@@ -7569,6 +7683,17 @@
    "status": "vahvistettu",
    "announced": "",
    "origin": "nasdaq_helsinki"
+  },
+  {
+   "event_key": "eu-tte-tulos-2027-q3",
+   "company": "TotalEnergies",
+   "event_type": "tulos",
+   "region": "eurooppa",
+   "event_date": "2027-10-28",
+   "period": "Q3/2027",
+   "status": "vahvistettu",
+   "source": "ir_tte",
+   "origin": "yhtiot"
   },
   {
    "event_key": "trainers-house-oyj-tulos-q3-2027",
