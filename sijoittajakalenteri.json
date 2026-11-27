@@ -2,9 +2,9 @@
  "_ohje": "SalkunRakentajan sijoittajakalenteri. Lähteet: Nasdaq Helsingin yhtiötiedotteet, keskuspankkien ja tilastovirastojen viralliset julkaisukalenterit sekä yhtiöiden omat sijoittajasivut.",
  "schema_version": 1,
  "haettu": {
-  "nasdaq_helsinki": "2026-11-26T01:04:05+00:00",
+  "nasdaq_helsinki": "2026-11-27T01:03:59+00:00",
   "makro": "2026-11-08T18:12:16+00:00",
-  "yhtiot": "2026-11-26T01:04:19+00:00"
+  "yhtiot": "2026-11-27T01:04:14+00:00"
  },
  "events": [
   {
@@ -2995,8 +2995,8 @@
    "event_type": "yhtiokokous",
    "event_date": "2027-04-01",
    "period": "Varsinainen yhtiökokous 2027",
-   "status": "arvio",
-   "announced": "",
+   "status": "vahvistettu",
+   "announced": "2026-11-26 06:00:00 +0000",
    "origin": "nasdaq_helsinki"
   },
   {
